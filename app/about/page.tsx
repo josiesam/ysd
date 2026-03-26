@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "About Us | LEONE ATHLETES",
+  title: "About Us | YSD-SL-LG",
 };
 
 export default function AboutPage() {
@@ -146,20 +146,23 @@ export default function AboutPage() {
               {
                 name: "Mamadu Bah",
                 title: "Founder & CEO",
-                bio: "A former athlete and educational consultant, Mamadu founded YSD with the belief that sport is the most powerful tool for social mobility in Sierra Leone.",
-                img: "https://lh3.googleusercontent.com/aida-public/AB6AXuAJL8dKiloLUOavUF3Mj9qKW_tRb8V3HLJG_QqIE56BNeBk_47qry6TQ3hvFCFOBqUEXVHuD0l9qyFwjQSbnFJx9g3JKawSU9X8vufBViHiL98ZMC_Gws1BNWdNaBu7K-UhKx33Xx-AleqJDNMBZ_-FIcbCj14qT13PcZzHY8Pi4EdExuvYVMcx0b71MdE2BRIOakyZaZcta1LOqGUPHO0cCOu1FCR8RCzu9Keaqx6QwmYXkGWamyW3dOg3s12bxz-K64leYm-QZzo",
+                bio: "",
+                // bio: "A former athlete and educational consultant, Mamadu founded YSD with the belief that sport is the most powerful tool for social mobility in Sierra Leone.",
+                img: "https://ff6afvdal8w6atua.public.blob.vercel-storage.com/bahj.jpeg",
               },
               {
-                name: "Fatmata Sesay",
-                title: "Director of Education",
-                bio: "Fatmata bridges the gap between the field and the classroom, ensuring every athlete maintains a 3.5 GPA and remains on track for university placement.",
-                img: "https://lh3.googleusercontent.com/aida-public/AB6AXuB2-D99Dkol2Y2zdRmWXSXDnspW2dfDb1sLcdSpczsAMbesXan_fHsTR7lIEYxNKhfVVe71k6fP5jPedxW3Jb5aaFOWY3-V5RtBRDtwTKtZ0oOQrdJMuqGmyLrr7YizAKTSWbGmbBXg5kIj0TqDqYAs94zoxHFO5u1TDi0-JEKbs5Vi6GN2sJzxBHh5YTZxX4-oNxTD_m4r1barfCV4YC6G1TtbK79nQk9rEcAno5ZvkEn3i0RSrOHLcPK3DFo-vBFDdZJSzPorjVQ",
+                name: "Allan Simeon Leigh Sesay",
+                title: "Project Manager",
+                bio: "",
+                // bio: "Fatmata bridges the gap between the field and the classroom, ensuring every athlete maintains a 3.5 GPA and remains on track for university placement.",
+                img: "https://ff6afvdal8w6atua.public.blob.vercel-storage.com/allen.jpeg",
               },
               {
-                name: "Ibrahim Conteh",
-                title: "Head of Performance",
-                bio: "With 15 years of coaching experience in West Africa, Ibrahim oversees the technical development and physical conditioning of our premier teams.",
-                img: "https://lh3.googleusercontent.com/aida-public/AB6AXuASL7kzGfCbWVkZ3hfVVLsGVFLIq0d9I9F6Urvyzit4gsz4if5ZQBZlSL5EondqQJgnfxmPsekpu8TFO_jLVOTAGw2EjYkbD5N79B4tSllT7iYoY9Zq7O3DoqRFWqcFsIHYwEvyU5dIJulFVHhLZ8Osr9E5V_L1jx-MA_jXCis8QmXx3k0qaOU-5P0ExW7j3d_UdFomcCiFVK0GHKKzjA3Ue3TVbMppPBEBTuB5Gyke_NN1--gvI3LQM1z4OQHUi5ZoiI0wUlQcp_o",
+                name: "Albertina Joan Tucker",
+                bio: "",
+                title: "Finance Officer",
+                // bio: "With 15 years of coaching experience in West Africa, Ibrahim oversees the technical development and physical conditioning of our premier teams.",
+                img: "https://ff6afvdal8w6atua.public.blob.vercel-storage.com/WhatsApp%20Image%202026-03-26%20at%2008.32.51.jpeg",
               },
             ].map((leader) => (
               <div key={leader.name} className="group">
