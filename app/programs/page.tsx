@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Programs & Initiatives | LEONE ATHLETES",
+  title: "Programs & Initiatives | YSD-SL-LG",
 };
 
 export default function ProgramsPage() {

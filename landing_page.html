@@ -1,20 +1,30 @@
-<!DOCTYPE html>
+<!doctype html>
 
-<html lang="en"><head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>LEONE ATHLETES | Youth Sport Development Sierra Leone</title>
-<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;600;700;800;900&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<script id="tailwind-config">
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Youth Sport Development Sierra Leone</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;600;700;800;900&amp;family=Manrope:wght@400;500;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+      rel="stylesheet"
+    />
+    <script id="tailwind-config">
       tailwind.config = {
         darkMode: "class",
         theme: {
           extend: {
             colors: {
-              "background": "#f6f5ff",
+              background: "#f6f5ff",
               "on-primary-fixed-variant": "#00346e",
               "surface-container": "#e3e7ff",
               "on-primary-fixed": "#00102a",
@@ -31,9 +41,9 @@
               "on-surface": "#222d51",
               "on-background": "#222d51",
               "error-container": "#fb5151",
-              "secondary": "#006a2c",
+              secondary: "#006a2c",
               "surface-dim": "#c9d3ff",
-              "surface": "#f6f5ff",
+              surface: "#f6f5ff",
               "on-primary": "#eff2ff",
               "on-secondary-fixed": "#004219",
               "surface-bright": "#f6f5ff",
@@ -41,18 +51,18 @@
               "on-secondary-fixed-variant": "#006228",
               "error-dim": "#9f0519",
               "tertiary-fixed-dim": "#fe8029",
-              "error": "#b31b25",
+              error: "#b31b25",
               "on-tertiary": "#fff0e9",
               "primary-container": "#7cabff",
               "primary-fixed-dim": "#6e9ef1",
               "on-tertiary-container": "#542200",
               "primary-dim": "#0b4e9c",
-              "outline": "#6b759e",
+              outline: "#6b759e",
               "surface-variant": "#d4dbff",
               "on-primary-container": "#002b5e",
               "on-error-container": "#570008",
-              "tertiary": "#974300",
-              "primary": "#225aa9",
+              tertiary: "#974300",
+              primary: "#225aa9",
               "on-surface-variant": "#4f5a81",
               "surface-tint": "#225aa9",
               "tertiary-container": "#ff9656",
@@ -64,24 +74,33 @@
               "on-tertiary-fixed": "#2d0f00",
               "tertiary-fixed": "#ff9656",
               "primary-fixed": "#7cabff",
-              "inverse-surface": "#000b2f"
+              "inverse-surface": "#000b2f",
             },
             fontFamily: {
-              "headline": ["Lexend"],
-              "body": ["Manrope"],
-              "label": ["Manrope"]
+              headline: ["Lexend"],
+              body: ["Manrope"],
+              label: ["Manrope"],
             },
-            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+            borderRadius: {
+              DEFAULT: "0.25rem",
+              lg: "0.5rem",
+              xl: "0.75rem",
+              full: "9999px",
+            },
           },
         },
-      }
+      };
     </script>
-<style>
+    <style>
       .material-symbols-outlined {
-        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        font-variation-settings:
+          "FILL" 0,
+          "wght" 400,
+          "GRAD" 0,
+          "opsz" 24;
       }
       .kinetic-gradient {
-        background: linear-gradient(135deg, #1B56A4 0%, #20A24C 100%);
+        background: linear-gradient(135deg, #1b56a4 0%, #20a24c 100%);
       }
       .glass-card {
         background: rgba(255, 255, 255, 0.1);
@@ -94,214 +113,496 @@
         animation: ticker 30s linear infinite;
       }
       @keyframes ticker {
-        0% { transform: translateX(0); }
-        100% { transform: translateX(-50%); }
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(-50%);
+        }
       }
       .sport-shadow {
         box-shadow: 0 8px 32px -4px rgba(11, 78, 156, 0.15);
       }
     </style>
-</head>
-<body class="bg-surface font-body text-on-surface selection:bg-tertiary-container">
-<!-- TopNavBar -->
-<nav class="fixed top-0 w-full z-50 bg-surface/80 dark:bg-slate-950/80 backdrop-blur-lg shadow-sm">
-<div class="flex justify-between items-center px-6 py-4 max-w-7xl mx-auto">
-<div class="flex items-center gap-3">
-<img alt="Logo" class="w-8 h-8" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAFngzIkZGQRDgliLn3XEkIPnxqQMJxdlA8iclyvsTxuBel1QjWDQ3nTpU5FgFCqdsmsSGGPsRmfqOaI3mJQTSlxDD6g7IkYCo4brRePBc5F4PcONpGU-8zLQAM_HO1NisR0-NLne24gDCCYcKSJbvdjuDFWQMw3b6YdNQTEtEZmrv8y50Y_JteIX2f4u1Bf0KeDsG6FY-_QhT5aNcrbZTqbLqDi3ibwOShRawUFK2I1i_iSb19ePoZS3WPir3eIbIDVhu2XPVcl_M"/>
-<span class="text-2xl font-black text-blue-700 tracking-tighter font-headline">LEONE ATHLETES</span>
-</div>
-<div class="hidden md:flex gap-8 items-center">
-<a class="text-blue-700 border-b-2 border-blue-600 pb-1 font-lexend font-bold tracking-tight" href="#">Programs</a>
-<a class="text-slate-600 hover:text-blue-600 transition-colors font-lexend font-bold tracking-tight" href="#">Impact</a>
-<a class="text-slate-600 hover:text-blue-600 transition-colors font-lexend font-bold tracking-tight" href="#">Partners</a>
-<a class="text-slate-600 hover:text-blue-600 transition-colors font-lexend font-bold tracking-tight" href="#">Contact</a>
-</div>
-<div class="flex items-center gap-4">
-<button class="hidden lg:block px-5 py-2 rounded-full border border-primary text-primary font-bold hover:bg-primary-container transition-all">School Login</button>
-<button class="bg-tertiary text-on-tertiary px-6 py-2 rounded-full font-bold shadow-lg hover:opacity-80 transition-all scale-100 active:scale-95">Get Involved</button>
-</div>
-</div>
-</nav>
-<main class="pt-20">
-<!-- Hero Section -->
-<section class="relative min-h-[870px] flex items-center px-6 md:px-16 overflow-hidden">
-<div class="absolute inset-0 kinetic-gradient -z-10"></div>
-<div class="absolute inset-0 opacity-20" data-alt="Dynamic shot of youth football players in Sierra Leone practicing under a bright tropical sun with vibrant green field background" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC6Et_nQTVC99_rzZS4voP_C30ZncrE2QrEWBY5Y-1VlrZz60mSAjFsd9BWsmmVnRmAjf_pil3yL67-5kQMn9FIoRcHEV98tplDw5vUeqI-UTC33ziIdyTwXSqfzZYN7HXvBh9G3ik2hg3X0_8k0GdAOUD_z7YtSEqZpSszpvbQR7vht0KQkWFRlwRqucFZQ5f-C0Z6AJ6lkDWjVIBaROh9_CN9nE4jhhw5eqcRtm46bwH04K5Ut3wNAHGA1637tQcUQoEyQb0bYLg'); background-size: cover; background-position: center;"></div>
-<div class="max-w-4xl">
-<span class="inline-block px-4 py-1.5 bg-secondary-container text-on-secondary-container rounded-full text-sm font-bold tracking-widest uppercase mb-6">Lakka, Sierra Leone</span>
-<h1 class="text-5xl md:text-8xl font-black text-white leading-[0.9] font-headline tracking-tighter mb-8">
-                    Integrating Sports <br/> and Education for <br/> Sierra Leone’s Future.
-                </h1>
-<p class="text-xl md:text-2xl text-white/90 max-w-2xl mb-10 leading-relaxed font-medium">
-                    Based in Lakka, we empower the next generation by bridging the gap between classroom learning and athletic excellence.
+  </head>
+  <body
+    class="bg-surface font-body text-on-surface selection:bg-tertiary-container"
+  >
+    <!-- TopNavBar -->
+    <nav
+      class="fixed top-0 w-full z-50 bg-surface/80 dark:bg-slate-950/80 backdrop-blur-lg shadow-sm"
+    >
+      <div
+        class="flex justify-between items-center px-6 py-4 max-w-7xl mx-auto"
+      >
+        <div class="flex items-center gap-3">
+          <img
+            alt="Logo"
+            class="w-8 h-8"
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuAFngzIkZGQRDgliLn3XEkIPnxqQMJxdlA8iclyvsTxuBel1QjWDQ3nTpU5FgFCqdsmsSGGPsRmfqOaI3mJQTSlxDD6g7IkYCo4brRePBc5F4PcONpGU-8zLQAM_HO1NisR0-NLne24gDCCYcKSJbvdjuDFWQMw3b6YdNQTEtEZmrv8y50Y_JteIX2f4u1Bf0KeDsG6FY-_QhT5aNcrbZTqbLqDi3ibwOShRawUFK2I1i_iSb19ePoZS3WPir3eIbIDVhu2XPVcl_M"
+          />
+          <span
+            class="text-2xl font-black text-blue-700 tracking-tighter font-headline"
+            >YSD-SL-LG</span
+          >
+        </div>
+        <div class="hidden md:flex gap-8 items-center">
+          <a
+            class="text-blue-700 border-b-2 border-blue-600 pb-1 font-lexend font-bold tracking-tight"
+            href="#"
+            >Programs</a
+          >
+          <a
+            class="text-slate-600 hover:text-blue-600 transition-colors font-lexend font-bold tracking-tight"
+            href="#"
+            >Impact</a
+          >
+          <a
+            class="text-slate-600 hover:text-blue-600 transition-colors font-lexend font-bold tracking-tight"
+            href="#"
+            >Partners</a
+          >
+          <a
+            class="text-slate-600 hover:text-blue-600 transition-colors font-lexend font-bold tracking-tight"
+            href="#"
+            >Contact</a
+          >
+        </div>
+        <div class="flex items-center gap-4">
+          <button
+            class="hidden lg:block px-5 py-2 rounded-full border border-primary text-primary font-bold hover:bg-primary-container transition-all"
+          >
+            School Login
+          </button>
+          <button
+            class="bg-tertiary text-on-tertiary px-6 py-2 rounded-full font-bold shadow-lg hover:opacity-80 transition-all scale-100 active:scale-95"
+          >
+            Get Involved
+          </button>
+        </div>
+      </div>
+    </nav>
+    <main class="pt-20">
+      <!-- Hero Section -->
+      <section
+        class="relative min-h-[870px] flex items-center px-6 md:px-16 overflow-hidden"
+      >
+        <div class="absolute inset-0 kinetic-gradient -z-10"></div>
+        <div
+          class="absolute inset-0 opacity-20"
+          data-alt="Dynamic shot of youth football players in Sierra Leone practicing under a bright tropical sun with vibrant green field background"
+          style="
+            background-image: url(&quot;https://lh3.googleusercontent.com/aida-public/AB6AXuC6Et_nQTVC99_rzZS4voP_C30ZncrE2QrEWBY5Y-1VlrZz60mSAjFsd9BWsmmVnRmAjf_pil3yL67-5kQMn9FIoRcHEV98tplDw5vUeqI-UTC33ziIdyTwXSqfzZYN7HXvBh9G3ik2hg3X0_8k0GdAOUD_z7YtSEqZpSszpvbQR7vht0KQkWFRlwRqucFZQ5f-C0Z6AJ6lkDWjVIBaROh9_CN9nE4jhhw5eqcRtm46bwH04K5Ut3wNAHGA1637tQcUQoEyQb0bYLg&quot;);
+            background-size: cover;
+            background-position: center;
+          "
+        ></div>
+        <div class="max-w-4xl">
+          <span
+            class="inline-block px-4 py-1.5 bg-secondary-container text-on-secondary-container rounded-full text-sm font-bold tracking-widest uppercase mb-6"
+            >Lakka, Sierra Leone</span
+          >
+          <h1
+            class="text-5xl md:text-8xl font-black text-white leading-[0.9] font-headline tracking-tighter mb-8"
+          >
+            Integrating Sports <br />
+            and Education for <br />
+            Sierra Leone’s Future.
+          </h1>
+          <p
+            class="text-xl md:text-2xl text-white/90 max-w-2xl mb-10 leading-relaxed font-medium"
+          >
+            Based in Lakka, we empower the next generation by bridging the gap
+            between classroom learning and athletic excellence.
+          </p>
+          <div class="flex flex-wrap gap-4">
+            <button
+              class="bg-tertiary text-on-tertiary text-lg px-10 py-5 rounded-full font-black flex items-center gap-3 hover:translate-y-[-2px] transition-all sport-shadow"
+            >
+              Get Involved
+              <span class="material-symbols-outlined">arrow_forward</span>
+            </button>
+            <button
+              class="glass-card text-white border border-white/30 text-lg px-10 py-5 rounded-full font-black hover:bg-white/10 transition-all"
+            >
+              Our Mission
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- Match Ticker -->
+      <div
+        class="bg-surface-container-low py-4 border-y border-outline-variant/10 overflow-hidden relative"
+      >
+        <div class="scrolling-ticker flex gap-12 items-center">
+          <span
+            class="flex items-center gap-4 text-on-surface-variant font-bold"
+            ><span class="w-2 h-2 rounded-full bg-error animate-pulse"></span>
+            Lebanese School 2 - 1 Standard International</span
+          >
+          <span class="text-outline-variant">|</span>
+          <span
+            class="flex items-center gap-4 text-on-surface-variant font-bold"
+            ><span class="w-2 h-2 rounded-full bg-secondary"></span> Lakka
+            Academy vs. Hamilton High (Starts 15:00)</span
+          >
+          <span class="text-outline-variant">|</span>
+          <span
+            class="flex items-center gap-4 text-on-surface-variant font-bold"
+            >Prince of Wales 0 - 0 Methodist Boys</span
+          >
+          <span class="text-outline-variant">|</span>
+          <span
+            class="flex items-center gap-4 text-on-surface-variant font-bold"
+            >St. Edwards vs. Albert Academy (Postponed)</span
+          >
+          <!-- Duplicate for seamless loop -->
+          <span
+            class="flex items-center gap-4 text-on-surface-variant font-bold"
+            ><span class="w-2 h-2 rounded-full bg-error animate-pulse"></span>
+            Lebanese School 2 - 1 Standard International</span
+          >
+          <span class="text-outline-variant">|</span>
+          <span
+            class="flex items-center gap-4 text-on-surface-variant font-bold"
+            ><span class="w-2 h-2 rounded-full bg-secondary"></span> Lakka
+            Academy vs. Hamilton High (Starts 15:00)</span
+          >
+        </div>
+      </div>
+      <!-- Impact Grid (Bento) -->
+      <section class="max-w-7xl mx-auto px-6 py-24">
+        <div
+          class="grid grid-cols-1 md:grid-cols-4 grid-rows-2 gap-6 h-auto md:h-[600px]"
+        >
+          <div
+            class="md:col-span-2 md:row-span-2 bg-surface-container rounded-[2rem] p-10 flex flex-col justify-between relative overflow-hidden group"
+          >
+            <div class="relative z-10">
+              <span
+                class="text-tertiary font-black text-8xl md:text-9xl tracking-tighter block mb-4"
+                >15</span
+              >
+              <h3
+                class="text-3xl font-headline font-black text-primary leading-tight"
+              >
+                Partner Schools <br />
+                Across the Peninsula
+              </h3>
+              <p class="mt-6 text-on-surface-variant max-w-xs text-lg">
+                Forging deep connections with educational institutions to create
+                structured sports curricula.
+              </p>
+            </div>
+            <img
+              class="absolute bottom-[-10%] right-[-10%] w-2/3 grayscale opacity-30 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700 rotate-12"
+              data-alt="Group of smiling school children in Sierra Leone wearing school uniforms and holding footballs in a rustic courtyard setting"
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuCLbCenwRjjXf9gAC0_qsCJlJ6pTLg0etuTJSzp7szNOSe6htkxQ9GQ4FBfDoJUiw4ZxFxLlfWTlbE6IOus9NMEupHX75qCV-xV2kNe2XAkLY_mc2s2ti5CkQxIfec1iIpGFCRxDx9mBzaaO0RwiTj8i2WsayKnY1Ic7hO7rusHdmdhmc_jN1pVQ9fYp3foXB1k_E9fZMgCyyjfn2Q05xcRlye3gRkuIs65Z3YhiqnqSoAazHgcqId-CPdJ90pN8c3oagCnFyOC5_c"
+            />
+          </div>
+          <div
+            class="md:col-span-2 bg-tertiary-container rounded-[2rem] p-10 flex flex-col justify-center relative overflow-hidden"
+          >
+            <span
+              class="text-on-tertiary-container font-black text-7xl tracking-tighter"
+              >600+</span
+            >
+            <h3
+              class="text-2xl font-headline font-bold text-on-tertiary-container"
+            >
+              Active Pupils
+            </h3>
+            <p class="mt-2 text-on-tertiary-container/80 text-lg">
+              Daily engagement in specialized athletic training and mentorship
+              programs.
+            </p>
+            <div
+              class="mt-6 h-3 w-full bg-tertiary/20 rounded-full overflow-hidden"
+            >
+              <div class="h-full bg-tertiary w-3/4 rounded-full"></div>
+            </div>
+          </div>
+          <div
+            class="md:col-span-1 bg-secondary-container rounded-[2rem] p-8 flex flex-col items-center justify-center text-center"
+          >
+            <span
+              class="text-on-secondary-container font-black text-6xl tracking-tighter"
+              >90%</span
+            >
+            <p
+              class="text-on-secondary-container font-bold text-lg leading-tight mt-2"
+            >
+              Retention &amp; Engagement
+            </p>
+          </div>
+          <div
+            class="md:col-span-1 bg-primary-container rounded-[2rem] p-8 flex flex-col items-center justify-center text-center group"
+          >
+            <span
+              class="material-symbols-outlined text-6xl text-on-primary-container mb-4 group-hover:scale-110 transition-transform"
+              data-weight="fill"
+              >diversity_3</span
+            >
+            <p
+              class="text-on-primary-container font-bold text-lg leading-tight"
+            >
+              Community Driven
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- The Three Pillars -->
+      <section class="bg-surface-container-low py-32 px-6">
+        <div class="max-w-7xl mx-auto">
+          <div class="mb-20">
+            <h2
+              class="text-4xl md:text-6xl font-headline font-black text-primary tracking-tighter mb-6"
+            >
+              Our Core Pillars
+            </h2>
+            <p class="text-xl text-on-surface-variant max-w-2xl">
+              A holistic approach to youth development, focusing on mind, body,
+              and societal impact.
+            </p>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Pillar 1 -->
+            <div
+              class="bg-surface-container-lowest p-2 rounded-[2.5rem] shadow-sm hover:shadow-xl transition-all duration-500 group"
+            >
+              <div class="h-64 rounded-[2rem] overflow-hidden mb-8">
+                <img
+                  class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                  data-alt="Young athlete leading a team huddle on a dusty football pitch at sunset in a vibrant African coastal town"
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuBY5Ofd0d6RgzbqjMvC6fPGXq8WHyxs1aioIEVrwOHbTLf-pbacCqkijKW0TLtgHK6tppJ_n8FYy2zmdFL4_y6wUlLz7GhR2cUb8QbF_28SNbPxRHuTcslF6DxcChy4XL22xb5ZIT05cQAWYSge8LfCKeouVLf9Y4KwFQGp5jvES5JFZJn7QqAKRfNEk0jM69uy9k4RkLhKSgG_3jNL0zkLOy06FybzKVqC3Iunz6O9KcsQ0x3aJiUdk6nEewFhDH1hUyoJDib-luM"
+                />
+              </div>
+              <div class="px-8 pb-10">
+                <div
+                  class="w-14 h-14 rounded-full bg-[#6A359B]/10 flex items-center justify-center mb-6"
+                >
+                  <span
+                    class="material-symbols-outlined text-[#6A359B] text-3xl"
+                    >school</span
+                  >
+                </div>
+                <h3 class="text-2xl font-black font-headline mb-4">
+                  Primary School Tours
+                </h3>
+                <p class="text-on-surface-variant mb-6 leading-relaxed">
+                  Introducing students to leadership roles, vocational insights,
+                  and diverse career pathways through the lens of sport.
                 </p>
-<div class="flex flex-wrap gap-4">
-<button class="bg-tertiary text-on-tertiary text-lg px-10 py-5 rounded-full font-black flex items-center gap-3 hover:translate-y-[-2px] transition-all sport-shadow">
-                        Get Involved
-                        <span class="material-symbols-outlined">arrow_forward</span>
-</button>
-<button class="glass-card text-white border border-white/30 text-lg px-10 py-5 rounded-full font-black hover:bg-white/10 transition-all">
-                        Our Mission
-                    </button>
-</div>
-</div>
-</section>
-<!-- Match Ticker -->
-<div class="bg-surface-container-low py-4 border-y border-outline-variant/10 overflow-hidden relative">
-<div class="scrolling-ticker flex gap-12 items-center">
-<span class="flex items-center gap-4 text-on-surface-variant font-bold"><span class="w-2 h-2 rounded-full bg-error animate-pulse"></span> Lebanese School 2 - 1 Standard International</span>
-<span class="text-outline-variant">|</span>
-<span class="flex items-center gap-4 text-on-surface-variant font-bold"><span class="w-2 h-2 rounded-full bg-secondary"></span> Lakka Academy vs. Hamilton High (Starts 15:00)</span>
-<span class="text-outline-variant">|</span>
-<span class="flex items-center gap-4 text-on-surface-variant font-bold">Prince of Wales 0 - 0 Methodist Boys</span>
-<span class="text-outline-variant">|</span>
-<span class="flex items-center gap-4 text-on-surface-variant font-bold">St. Edwards vs. Albert Academy (Postponed)</span>
-<!-- Duplicate for seamless loop -->
-<span class="flex items-center gap-4 text-on-surface-variant font-bold"><span class="w-2 h-2 rounded-full bg-error animate-pulse"></span> Lebanese School 2 - 1 Standard International</span>
-<span class="text-outline-variant">|</span>
-<span class="flex items-center gap-4 text-on-surface-variant font-bold"><span class="w-2 h-2 rounded-full bg-secondary"></span> Lakka Academy vs. Hamilton High (Starts 15:00)</span>
-</div>
-</div>
-<!-- Impact Grid (Bento) -->
-<section class="max-w-7xl mx-auto px-6 py-24">
-<div class="grid grid-cols-1 md:grid-cols-4 grid-rows-2 gap-6 h-auto md:h-[600px]">
-<div class="md:col-span-2 md:row-span-2 bg-surface-container rounded-[2rem] p-10 flex flex-col justify-between relative overflow-hidden group">
-<div class="relative z-10">
-<span class="text-tertiary font-black text-8xl md:text-9xl tracking-tighter block mb-4">15</span>
-<h3 class="text-3xl font-headline font-black text-primary leading-tight">Partner Schools <br/> Across the Peninsula</h3>
-<p class="mt-6 text-on-surface-variant max-w-xs text-lg">Forging deep connections with educational institutions to create structured sports curricula.</p>
-</div>
-<img class="absolute bottom-[-10%] right-[-10%] w-2/3 grayscale opacity-30 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700 rotate-12" data-alt="Group of smiling school children in Sierra Leone wearing school uniforms and holding footballs in a rustic courtyard setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCLbCenwRjjXf9gAC0_qsCJlJ6pTLg0etuTJSzp7szNOSe6htkxQ9GQ4FBfDoJUiw4ZxFxLlfWTlbE6IOus9NMEupHX75qCV-xV2kNe2XAkLY_mc2s2ti5CkQxIfec1iIpGFCRxDx9mBzaaO0RwiTj8i2WsayKnY1Ic7hO7rusHdmdhmc_jN1pVQ9fYp3foXB1k_E9fZMgCyyjfn2Q05xcRlye3gRkuIs65Z3YhiqnqSoAazHgcqId-CPdJ90pN8c3oagCnFyOC5_c"/>
-</div>
-<div class="md:col-span-2 bg-tertiary-container rounded-[2rem] p-10 flex flex-col justify-center relative overflow-hidden">
-<span class="text-on-tertiary-container font-black text-7xl tracking-tighter">600+</span>
-<h3 class="text-2xl font-headline font-bold text-on-tertiary-container">Active Pupils</h3>
-<p class="mt-2 text-on-tertiary-container/80 text-lg">Daily engagement in specialized athletic training and mentorship programs.</p>
-<div class="mt-6 h-3 w-full bg-tertiary/20 rounded-full overflow-hidden">
-<div class="h-full bg-tertiary w-3/4 rounded-full"></div>
-</div>
-</div>
-<div class="md:col-span-1 bg-secondary-container rounded-[2rem] p-8 flex flex-col items-center justify-center text-center">
-<span class="text-on-secondary-container font-black text-6xl tracking-tighter">90%</span>
-<p class="text-on-secondary-container font-bold text-lg leading-tight mt-2">Retention &amp; Engagement</p>
-</div>
-<div class="md:col-span-1 bg-primary-container rounded-[2rem] p-8 flex flex-col items-center justify-center text-center group">
-<span class="material-symbols-outlined text-6xl text-on-primary-container mb-4 group-hover:scale-110 transition-transform" data-weight="fill">diversity_3</span>
-<p class="text-on-primary-container font-bold text-lg leading-tight">Community Driven</p>
-</div>
-</div>
-</section>
-<!-- The Three Pillars -->
-<section class="bg-surface-container-low py-32 px-6">
-<div class="max-w-7xl mx-auto">
-<div class="mb-20">
-<h2 class="text-4xl md:text-6xl font-headline font-black text-primary tracking-tighter mb-6">Our Core Pillars</h2>
-<p class="text-xl text-on-surface-variant max-w-2xl">A holistic approach to youth development, focusing on mind, body, and societal impact.</p>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-<!-- Pillar 1 -->
-<div class="bg-surface-container-lowest p-2 rounded-[2.5rem] shadow-sm hover:shadow-xl transition-all duration-500 group">
-<div class="h-64 rounded-[2rem] overflow-hidden mb-8">
-<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="Young athlete leading a team huddle on a dusty football pitch at sunset in a vibrant African coastal town" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBY5Ofd0d6RgzbqjMvC6fPGXq8WHyxs1aioIEVrwOHbTLf-pbacCqkijKW0TLtgHK6tppJ_n8FYy2zmdFL4_y6wUlLz7GhR2cUb8QbF_28SNbPxRHuTcslF6DxcChy4XL22xb5ZIT05cQAWYSge8LfCKeouVLf9Y4KwFQGp5jvES5JFZJn7QqAKRfNEk0jM69uy9k4RkLhKSgG_3jNL0zkLOy06FybzKVqC3Iunz6O9KcsQ0x3aJiUdk6nEewFhDH1hUyoJDib-luM"/>
-</div>
-<div class="px-8 pb-10">
-<div class="w-14 h-14 rounded-full bg-[#6A359B]/10 flex items-center justify-center mb-6">
-<span class="material-symbols-outlined text-[#6A359B] text-3xl">school</span>
-</div>
-<h3 class="text-2xl font-black font-headline mb-4">Primary School Tours</h3>
-<p class="text-on-surface-variant mb-6 leading-relaxed">Introducing students to leadership roles, vocational insights, and diverse career pathways through the lens of sport.</p>
-<a class="text-[#6A359B] font-bold flex items-center gap-2 group/link" href="#">
-                                Learn More <span class="material-symbols-outlined group-hover/link:translate-x-1 transition-transform">arrow_forward</span>
-</a>
-</div>
-</div>
-<!-- Pillar 2 -->
-<div class="bg-surface-container-lowest p-2 rounded-[2.5rem] shadow-sm hover:shadow-xl transition-all duration-500 group">
-<div class="h-64 rounded-[2rem] overflow-hidden mb-8">
-<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="Intense action shot of a soccer player kicking a ball during a high-stakes local tournament match in West Africa" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD0esEp06MD7rmEKed8vNwNW1n_bbSOIV4XEpX1J2J0Tg6CMHqANiHmhhE4SPuAeAmp5ydII-nE7H9DsQMU2EQcC9N2VTSf7OFJC6IrqsA6Vau2LhJ416A65SUg5VnM-uuPjtA4AyU6aF2Y06BF3qWxRAwtH3mYazacAabQYyPYvnloSD5rcRxRCL9pJyZLGzyfolkSO39W9SzOJuS_VEjr42NnM-9vsCrEP9WRaIPlUq8NpJrpIPCsBeqBDph8eZuMqz6tzCZsw8c"/>
-</div>
-<div class="px-8 pb-10">
-<div class="w-14 h-14 rounded-full bg-secondary/10 flex items-center justify-center mb-6">
-<span class="material-symbols-outlined text-secondary text-3xl">sports_soccer</span>
-</div>
-<h3 class="text-2xl font-black font-headline mb-4">Football Gala</h3>
-<p class="text-on-surface-variant mb-6 leading-relaxed">High-energy athletic competitions that foster teamwork, discipline, and healthy rivalry among peninsula schools.</p>
-<a class="text-secondary font-bold flex items-center gap-2 group/link" href="#">
-                                View Gallery <span class="material-symbols-outlined group-hover/link:translate-x-1 transition-transform">arrow_forward</span>
-</a>
-</div>
-</div>
-<!-- Pillar 3 -->
-<div class="bg-surface-container-lowest p-2 rounded-[2.5rem] shadow-sm hover:shadow-xl transition-all duration-500 group">
-<div class="h-64 rounded-[2rem] overflow-hidden mb-8">
-<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="Close-up of two young men engaged in a serious conversation sitting on a beach bench, portraying a moment of mentorship and support" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAE2kYDeSmOILCCM8YWwBx1fjQSNQsfo8MxrmebhThGvfcbfDuOVAA7Z4QgwYHfasvbsCYRf0czD-QaU5S382sHqvbjwkT7qh3qtzOOjHJvhuNTlBXbjCxu29ijzL4UciCBMO-v7xE7QvXUU1vqGf5bXMsjRbsZQbSmDEoI1rRUBB2MxNUKA44YWrpUKK-1vP3w8bKBzPEvSsNO6SNaKT73j4q3Oam1j5C2YYLsRLcfMDQaTfUbSAw_Ea9e7uHQwrbz9bX91GGqZGI"/>
-</div>
-<div class="px-8 pb-10">
-<div class="w-14 h-14 rounded-full bg-error/10 flex items-center justify-center mb-6">
-<span class="material-symbols-outlined text-error text-3xl">health_and_safety</span>
-</div>
-<h3 class="text-2xl font-black font-headline mb-4">Champions at Risk</h3>
-<p class="text-on-surface-variant mb-6 leading-relaxed">Critical intervention programs focusing on drug prevention, mental health, and social rehabilitation for at-risk youth.</p>
-<a class="text-error font-bold flex items-center gap-2 group/link" href="#">
-                                Get Support <span class="material-symbols-outlined group-hover/link:translate-x-1 transition-transform">arrow_forward</span>
-</a>
-</div>
-</div>
-</div>
-</div>
-</section>
-<!-- Partners Section -->
-<section class="py-24 px-6 max-w-7xl mx-auto">
-<h4 class="text-center text-outline-variant font-bold uppercase tracking-widest text-sm mb-12">Trusted By World-Class Partners</h4>
-<div class="flex flex-wrap justify-center items-center gap-16 opacity-60 grayscale hover:grayscale-0 transition-all">
-<div class="flex items-center gap-3">
-<span class="material-symbols-outlined text-4xl">corporate_fare</span>
-<span class="font-black text-xl tracking-tight">Leone Rock Metal Group</span>
-</div>
-<div class="flex items-center gap-3">
-<span class="material-symbols-outlined text-4xl">account_balance</span>
-<span class="font-black text-xl tracking-tight">Gender &amp; Children Affairs SL</span>
-</div>
-<div class="flex items-center gap-3">
-<span class="material-symbols-outlined text-4xl">stadium</span>
-<span class="font-black text-xl tracking-tight">SL National Sports Authority</span>
-</div>
-</div>
-</section>
-<!-- CTA Section -->
-<section class="mx-6 mb-24">
-<div class="max-w-7xl mx-auto rounded-[3rem] kinetic-gradient p-12 md:p-24 text-center relative overflow-hidden">
-<div class="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full -translate-y-1/2 translate-x-1/2 blur-3xl"></div>
-<h2 class="text-4xl md:text-7xl font-headline font-black text-white tracking-tighter mb-8 relative z-10">Ready to change the game?</h2>
-<p class="text-xl text-white/80 max-w-2xl mx-auto mb-12 relative z-10">Join our community of coaches, mentors, and sponsors today and help us build a brighter future for Sierra Leonean youth.</p>
-<div class="flex flex-col md:flex-row gap-4 justify-center relative z-10">
-<button class="bg-tertiary text-on-tertiary px-12 py-5 rounded-full font-black text-xl hover:scale-105 transition-transform sport-shadow">Partner With Us</button>
-<button class="bg-white text-primary px-12 py-5 rounded-full font-black text-xl hover:bg-on-primary transition-colors">Volunteer Now</button>
-</div>
-</div>
-</section>
-</main>
-<!-- Footer -->
-<footer class="w-full border-t border-slate-200 bg-slate-50">
-<div class="flex flex-col md:flex-row justify-between items-center px-8 py-12 gap-6 max-w-7xl mx-auto">
-<div class="flex flex-col gap-2">
-<span class="text-lg font-bold text-blue-700 font-headline">LEONE ATHLETES</span>
-<p class="text-slate-500 text-sm font-manrope">© 2024 Youth Sport Development Sierra Leone. All Rights Reserved.</p>
-</div>
-<div class="flex flex-wrap justify-center gap-8">
-<a class="text-slate-500 hover:text-blue-500 hover:underline font-manrope text-sm" href="#">Privacy Policy</a>
-<a class="text-slate-500 hover:text-blue-500 hover:underline font-manrope text-sm" href="#">Terms of Service</a>
-<a class="text-slate-500 hover:text-blue-500 hover:underline font-manrope text-sm" href="#">Safeguarding</a>
-<a class="text-slate-500 hover:text-blue-500 hover:underline font-manrope text-sm" href="#">Sponsorship</a>
-</div>
-<div class="flex gap-4">
-<div class="w-10 h-10 rounded-full bg-slate-200 flex items-center justify-center text-blue-700 hover:bg-blue-700 hover:text-white transition-all cursor-pointer">
-<span class="material-symbols-outlined text-xl">share</span>
-</div>
-<div class="w-10 h-10 rounded-full bg-slate-200 flex items-center justify-center text-blue-700 hover:bg-blue-700 hover:text-white transition-all cursor-pointer">
-<span class="material-symbols-outlined text-xl">mail</span>
-</div>
-</div>
-</div>
-</footer>
-</body></html>
+                <a
+                  class="text-[#6A359B] font-bold flex items-center gap-2 group/link"
+                  href="#"
+                >
+                  Learn More
+                  <span
+                    class="material-symbols-outlined group-hover/link:translate-x-1 transition-transform"
+                    >arrow_forward</span
+                  >
+                </a>
+              </div>
+            </div>
+            <!-- Pillar 2 -->
+            <div
+              class="bg-surface-container-lowest p-2 rounded-[2.5rem] shadow-sm hover:shadow-xl transition-all duration-500 group"
+            >
+              <div class="h-64 rounded-[2rem] overflow-hidden mb-8">
+                <img
+                  class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                  data-alt="Intense action shot of a soccer player kicking a ball during a high-stakes local tournament match in West Africa"
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuD0esEp06MD7rmEKed8vNwNW1n_bbSOIV4XEpX1J2J0Tg6CMHqANiHmhhE4SPuAeAmp5ydII-nE7H9DsQMU2EQcC9N2VTSf7OFJC6IrqsA6Vau2LhJ416A65SUg5VnM-uuPjtA4AyU6aF2Y06BF3qWxRAwtH3mYazacAabQYyPYvnloSD5rcRxRCL9pJyZLGzyfolkSO39W9SzOJuS_VEjr42NnM-9vsCrEP9WRaIPlUq8NpJrpIPCsBeqBDph8eZuMqz6tzCZsw8c"
+                />
+              </div>
+              <div class="px-8 pb-10">
+                <div
+                  class="w-14 h-14 rounded-full bg-secondary/10 flex items-center justify-center mb-6"
+                >
+                  <span
+                    class="material-symbols-outlined text-secondary text-3xl"
+                    >sports_soccer</span
+                  >
+                </div>
+                <h3 class="text-2xl font-black font-headline mb-4">
+                  Football Gala
+                </h3>
+                <p class="text-on-surface-variant mb-6 leading-relaxed">
+                  High-energy athletic competitions that foster teamwork,
+                  discipline, and healthy rivalry among peninsula schools.
+                </p>
+                <a
+                  class="text-secondary font-bold flex items-center gap-2 group/link"
+                  href="#"
+                >
+                  View Gallery
+                  <span
+                    class="material-symbols-outlined group-hover/link:translate-x-1 transition-transform"
+                    >arrow_forward</span
+                  >
+                </a>
+              </div>
+            </div>
+            <!-- Pillar 3 -->
+            <div
+              class="bg-surface-container-lowest p-2 rounded-[2.5rem] shadow-sm hover:shadow-xl transition-all duration-500 group"
+            >
+              <div class="h-64 rounded-[2rem] overflow-hidden mb-8">
+                <img
+                  class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                  data-alt="Close-up of two young men engaged in a serious conversation sitting on a beach bench, portraying a moment of mentorship and support"
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuAE2kYDeSmOILCCM8YWwBx1fjQSNQsfo8MxrmebhThGvfcbfDuOVAA7Z4QgwYHfasvbsCYRf0czD-QaU5S382sHqvbjwkT7qh3qtzOOjHJvhuNTlBXbjCxu29ijzL4UciCBMO-v7xE7QvXUU1vqGf5bXMsjRbsZQbSmDEoI1rRUBB2MxNUKA44YWrpUKK-1vP3w8bKBzPEvSsNO6SNaKT73j4q3Oam1j5C2YYLsRLcfMDQaTfUbSAw_Ea9e7uHQwrbz9bX91GGqZGI"
+                />
+              </div>
+              <div class="px-8 pb-10">
+                <div
+                  class="w-14 h-14 rounded-full bg-error/10 flex items-center justify-center mb-6"
+                >
+                  <span class="material-symbols-outlined text-error text-3xl"
+                    >health_and_safety</span
+                  >
+                </div>
+                <h3 class="text-2xl font-black font-headline mb-4">
+                  Champions at Risk
+                </h3>
+                <p class="text-on-surface-variant mb-6 leading-relaxed">
+                  Critical intervention programs focusing on drug prevention,
+                  mental health, and social rehabilitation for at-risk youth.
+                </p>
+                <a
+                  class="text-error font-bold flex items-center gap-2 group/link"
+                  href="#"
+                >
+                  Get Support
+                  <span
+                    class="material-symbols-outlined group-hover/link:translate-x-1 transition-transform"
+                    >arrow_forward</span
+                  >
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Partners Section -->
+      <section class="py-24 px-6 max-w-7xl mx-auto">
+        <h4
+          class="text-center text-outline-variant font-bold uppercase tracking-widest text-sm mb-12"
+        >
+          Trusted By World-Class Partners
+        </h4>
+        <div
+          class="flex flex-wrap justify-center items-center gap-16 opacity-60 grayscale hover:grayscale-0 transition-all"
+        >
+          <div class="flex items-center gap-3">
+            <span class="material-symbols-outlined text-4xl"
+              >corporate_fare</span
+            >
+            <span class="font-black text-xl tracking-tight"
+              >Leone Rock Metal Group</span
+            >
+          </div>
+          <div class="flex items-center gap-3">
+            <span class="material-symbols-outlined text-4xl"
+              >account_balance</span
+            >
+            <span class="font-black text-xl tracking-tight"
+              >Gender &amp; Children Affairs SL</span
+            >
+          </div>
+          <div class="flex items-center gap-3">
+            <span class="material-symbols-outlined text-4xl">stadium</span>
+            <span class="font-black text-xl tracking-tight"
+              >SL National Sports Authority</span
+            >
+          </div>
+        </div>
+      </section>
+      <!-- CTA Section -->
+      <section class="mx-6 mb-24">
+        <div
+          class="max-w-7xl mx-auto rounded-[3rem] kinetic-gradient p-12 md:p-24 text-center relative overflow-hidden"
+        >
+          <div
+            class="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full -translate-y-1/2 translate-x-1/2 blur-3xl"
+          ></div>
+          <h2
+            class="text-4xl md:text-7xl font-headline font-black text-white tracking-tighter mb-8 relative z-10"
+          >
+            Ready to change the game?
+          </h2>
+          <p
+            class="text-xl text-white/80 max-w-2xl mx-auto mb-12 relative z-10"
+          >
+            Join our community of coaches, mentors, and sponsors today and help
+            us build a brighter future for Sierra Leonean youth.
+          </p>
+          <div
+            class="flex flex-col md:flex-row gap-4 justify-center relative z-10"
+          >
+            <button
+              class="bg-tertiary text-on-tertiary px-12 py-5 rounded-full font-black text-xl hover:scale-105 transition-transform sport-shadow"
+            >
+              Partner With Us
+            </button>
+            <button
+              class="bg-white text-primary px-12 py-5 rounded-full font-black text-xl hover:bg-on-primary transition-colors"
+            >
+              Volunteer Now
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer class="w-full border-t border-slate-200 bg-slate-50">
+      <div
+        class="flex flex-col md:flex-row justify-between items-center px-8 py-12 gap-6 max-w-7xl mx-auto"
+      >
+        <div class="flex flex-col gap-2">
+          <span class="text-lg font-bold text-blue-700 font-headline"
+            >YSD-SL-LG</span
+          >
+          <p class="text-slate-500 text-sm font-manrope">
+            © 2024 Youth Sport Development Sierra Leone. All Rights Reserved.
+          </p>
+        </div>
+        <div class="flex flex-wrap justify-center gap-8">
+          <a
+            class="text-slate-500 hover:text-blue-500 hover:underline font-manrope text-sm"
+            href="#"
+            >Privacy Policy</a
+          >
+          <a
+            class="text-slate-500 hover:text-blue-500 hover:underline font-manrope text-sm"
+            href="#"
+            >Terms of Service</a
+          >
+          <a
+            class="text-slate-500 hover:text-blue-500 hover:underline font-manrope text-sm"
+            href="#"
+            >Safeguarding</a
+          >
+          <a
+            class="text-slate-500 hover:text-blue-500 hover:underline font-manrope text-sm"
+            href="#"
+            >Sponsorship</a
+          >
+        </div>
+        <div class="flex gap-4">
+          <div
+            class="w-10 h-10 rounded-full bg-slate-200 flex items-center justify-center text-blue-700 hover:bg-blue-700 hover:text-white transition-all cursor-pointer"
+          >
+            <span class="material-symbols-outlined text-xl">share</span>
+          </div>
+          <div
+            class="w-10 h-10 rounded-full bg-slate-200 flex items-center justify-center text-blue-700 hover:bg-blue-700 hover:text-white transition-all cursor-pointer"
+          >
+            <span class="material-symbols-outlined text-xl">mail</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

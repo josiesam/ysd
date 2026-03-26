@@ -40,3 +40,4 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 CODEBASE_GUIDE.md
+.env*.local

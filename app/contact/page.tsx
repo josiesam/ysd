@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
+import InquiryForm from "@/components/InquiryForm";
 
 export const metadata: Metadata = {
-  title: "Contact & Partner | LEONE ATHLETES",
+  title: "Contact & Partner | YSD-SL-LG",
 };
 
 export default function ContactPage() {
@@ -20,15 +21,17 @@ export default function ContactPage() {
             volunteer, your journey starts here.
           </p>
           <div className="flex flex-wrap gap-4 pt-4">
-            <button className="bg-tertiary-container text-on-tertiary-container px-8 py-4 rounded-full font-headline font-bold text-lg flex items-center gap-2 hover:shadow-lg transition-all">
+            {/* <button className="bg-tertiary-container text-on-tertiary-container px-8 py-4 rounded-full font-headline font-bold text-lg flex items-center gap-2 hover:shadow-lg transition-all">
               <span className="material-symbols-outlined">download</span>
               Download Pitch Deck
-            </button>
+            </button> */}
             <div className="flex items-center gap-2 px-6 py-4 rounded-full border border-outline-variant/30 bg-surface-container-low">
               <span className="material-symbols-outlined text-secondary">
                 verified
               </span>
-              <span className="font-bold text-sm">Official Partnership 2024</span>
+              <span className="font-bold text-sm">
+                Official Partnership 2024
+              </span>
             </div>
           </div>
         </div>
@@ -49,7 +52,10 @@ export default function ContactPage() {
       {/* Bento Grid Contact Info */}
       <section className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-20">
         {/* Phone Card */}
-        <div className="md:col-span-2 bg-primary-container/20 p-8 rounded-[2rem] flex flex-col justify-between border border-primary/10">
+        <a
+          href="tel:+23231413504"
+          className="md:col-span-2 bg-primary-container/20 p-8 rounded-[2rem] flex flex-col justify-between border border-primary/10"
+        >
           <div className="flex justify-between items-start mb-12">
             <div className="w-16 h-16 bg-primary rounded-2xl flex items-center justify-center">
               <span className="material-symbols-outlined text-on-primary text-3xl">
@@ -64,20 +70,20 @@ export default function ContactPage() {
             <h3 className="font-headline font-bold text-sm text-primary uppercase mb-2">
               Speak with our Team
             </h3>
-            <a
-              className="font-headline font-black text-3xl md:text-5xl text-on-primary-container hover:text-primary transition-colors"
-              href="tel:+23231413504"
-            >
+            <div className="font-headline font-black text-3xl md:text-5xl text-on-primary-container hover:text-primary transition-colors">
               +232 31 41 3504
-            </a>
+            </div>
             <p className="mt-4 text-on-surface-variant font-medium">
               Available Mon - Sat: 8:00 AM - 6:00 PM (GMT)
             </p>
           </div>
-        </div>
+        </a>
 
         {/* Email Card */}
-        <div className="bg-surface-container p-8 rounded-[2rem] border border-outline-variant/10">
+        <a
+          href="mailto:youthsportdevelopment.sl.lg@gmail.com"
+          className="bg-surface-container p-8 rounded-[2rem] border border-outline-variant/10"
+        >
           <div className="w-12 h-12 bg-secondary rounded-xl flex items-center justify-center mb-16">
             <span className="material-symbols-outlined text-on-secondary">
               mail
@@ -88,14 +94,14 @@ export default function ContactPage() {
           </h3>
           <a
             className="font-headline font-bold text-xl text-on-surface break-words hover:text-secondary transition-colors"
-            href="mailto:youthsportdevelopmentsl@gmail.com"
+            href="mailto:youthsportdevelopment.sl.lg@gmail.com"
           >
-            youthsportdevelopmentsl@gmail.com
+            youthsportdevelopment.sl.lg@gmail.com
           </a>
           <p className="mt-4 text-sm text-on-surface-variant">
             General inquiries, sponsorship requests, and media.
           </p>
-        </div>
+        </a>
 
         {/* Location Card */}
         <div className="bg-surface-container-high p-8 rounded-[2rem] relative overflow-hidden group">
@@ -128,7 +134,7 @@ export default function ContactPage() {
             Follow the Movement
           </span>
           <div className="flex items-center gap-4 flex-grow justify-end">
-            <a
+            {/* <a
               className="w-14 h-14 rounded-full bg-green-100 flex items-center justify-center text-[#25D366] hover:scale-110 transition-transform"
               href="#"
               aria-label="WhatsApp"
@@ -136,10 +142,10 @@ export default function ContactPage() {
               <svg className="w-7 h-7 fill-current" viewBox="0 0 24 24">
                 <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766 0-3.18-2.587-5.771-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.512-2.961-2.628-.086-.117-.718-.953-.718-1.816 0-.862.453-1.286.613-1.454.161-.168.346-.21.462-.21h.334c.105 0 .245-.039.384.285l.526 1.267c.053.126.088.273.003.441-.084.17-.126.273-.252.42l-.252.304c-.126.147-.258.307-.111.557.147.25.654 1.077 1.403 1.745.966.861 1.778 1.127 2.029 1.252.252.126.399.105.546-.063.147-.168.63-.735.798-.987.168-.252.336-.21.567-.126l1.722.813c.231.105.385.168.44.263.056.105.056.608-.088 1.013z" />
               </svg>
-            </a>
+            </a> */}
             <a
               className="w-14 h-14 rounded-full bg-blue-100 flex items-center justify-center text-[#1877F2] hover:scale-110 transition-transform"
-              href="#"
+              href="https://www.facebook.com/share/1EqPBpiNMy/"
               aria-label="Facebook"
             >
               <svg className="w-7 h-7 fill-current" viewBox="0 0 24 24">
@@ -148,7 +154,7 @@ export default function ContactPage() {
             </a>
             <a
               className="w-14 h-14 rounded-full bg-pink-100 flex items-center justify-center text-[#E4405F] hover:scale-110 transition-transform"
-              href="#"
+              href="https://www.instagram.com/youthsportdevelopmentsl/"
               aria-label="Instagram"
             >
               <svg className="w-7 h-7 fill-current" viewBox="0 0 24 24">
@@ -189,18 +195,31 @@ export default function ContactPage() {
             details the various tiers of local and international sponsorship
             opportunities.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-[#F57922] text-white px-10 py-5 rounded-full font-headline font-black text-xl hover:scale-105 transition-transform shadow-lg shadow-orange-500/20">
-              DOWNLOAD PITCH DECK
-            </button>
-            <button className="bg-white/10 text-white backdrop-blur-md px-10 py-5 rounded-full font-headline font-bold text-xl hover:bg-white/20 transition-all">
-              Inquiry Form
-            </button>
-          </div>
+          {/* <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="#inquiry-form"
+              className="bg-white/10 text-white backdrop-blur-md px-10 py-5 rounded-full font-headline font-bold text-xl hover:bg-white/20 transition-all"
+            >
+              Send an Inquiry ↓
+            </a>
+          </div> */}
         </div>
         <div className="absolute -top-24 -left-24 w-96 h-96 bg-primary opacity-20 blur-[100px] rounded-full" />
         <div className="absolute -bottom-24 -right-24 w-96 h-96 bg-secondary opacity-20 blur-[100px] rounded-full" />
       </section>
+
+      {/* Inquiry Form */}
+      {/* <section id="inquiry-form" className="mt-16 scroll-mt-28">
+        <div className="mb-10">
+          <h2 className="font-headline font-black text-3xl md:text-4xl text-on-surface tracking-tighter">
+            Get in Touch
+          </h2>
+          <p className="text-on-surface-variant mt-2">
+            Your message goes straight to our inbox — no middlemen.
+          </p>
+        </div>
+        <InquiryForm />
+      </section> */}
     </main>
   );
 }
