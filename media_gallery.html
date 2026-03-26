@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Media Gallery | SL Youth Sport Development</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800;900&amp;family=Manrope:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "outline-variant": "#a1abd7",
+              "surface-container-highest": "#d4dbff",
+              "secondary-dim": "#005d26",
+              "surface-container": "#e3e7ff",
+              "on-primary-fixed-variant": "#00346e",
+              "inverse-primary": "#7cabff",
+              "primary-container": "#7cabff",
+              "on-primary-fixed": "#00102a",
+              "primary-dim": "#0b4e9c",
+              "surface-tint": "#225aa9",
+              "on-secondary-fixed-variant": "#006228",
+              "surface-container-high": "#dce1ff",
+              "outline": "#6b759e",
+              "on-primary": "#eff2ff",
+              "on-surface-variant": "#4f5a81",
+              "on-tertiary-fixed-variant": "#612900",
+              "tertiary-fixed-dim": "#fe8029",
+              "on-error-container": "#570008",
+              "inverse-surface": "#000b2f",
+              "tertiary-dim": "#843a00",
+              "tertiary-fixed": "#ff9656",
+              "secondary-fixed": "#78f08f",
+              "on-secondary": "#ceffcf",
+              "inverse-on-surface": "#919bc6",
+              "on-secondary-container": "#005723",
+              "on-tertiary-container": "#542200",
+              "tertiary-container": "#ff9656",
+              "surface": "#f6f5ff",
+              "primary-fixed": "#7cabff",
+              "on-tertiary-fixed": "#2d0f00",
+              "secondary": "#006a2c",
+              "on-primary-container": "#002b5e",
+              "surface-variant": "#d4dbff",
+              "on-tertiary": "#fff0e9",
+              "surface-dim": "#c9d3ff",
+              "surface-bright": "#f6f5ff",
+              "surface-container-low": "#eff0ff",
+              "on-error": "#ffefee",
+              "secondary-fixed-dim": "#69e182",
+              "background": "#f6f5ff",
+              "error-container": "#fb5151",
+              "on-surface": "#222d51",
+              "surface-container-lowest": "#ffffff",
+              "tertiary": "#974300",
+              "error-dim": "#9f0519",
+              "on-secondary-fixed": "#004219",
+              "on-background": "#222d51",
+              "secondary-container": "#78f08f",
+              "primary-fixed-dim": "#6e9ef1",
+              "primary": "#225aa9",
+              "error": "#b31b25"
+            },
+            fontFamily: {
+              "headline": ["Lexend"],
+              "body": ["Manrope"],
+              "label": ["Manrope"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .kinetic-crop {
+            transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .kinetic-crop:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body class="bg-surface font-body text-on-surface">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-white/80 dark:bg-slate-900/80 backdrop-blur-md shadow-sm">
+<div class="flex justify-between items-center px-6 py-4 max-w-7xl mx-auto">
+<div class="text-2xl font-black text-blue-700 dark:text-blue-400 tracking-tighter font-headline">
+                SL Youth Sport
+            </div>
+<div class="hidden md:flex items-center space-x-8">
+<a class="font-lexend font-bold text-sm tracking-tight uppercase text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-300 transition-colors" href="#">Programs</a>
+<a class="font-lexend font-bold text-sm tracking-tight uppercase text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-300 transition-colors" href="#">Impact</a>
+<a class="font-lexend font-bold text-sm tracking-tight uppercase text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-300 transition-colors" href="#">Partners</a>
+<a class="font-lexend font-bold text-sm tracking-tight uppercase text-blue-700 dark:text-blue-400 border-b-2 border-orange-500 pb-1" href="#">Gallery</a>
+<a class="font-lexend font-bold text-sm tracking-tight uppercase text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-300 transition-colors" href="#">Contact</a>
+</div>
+<div class="flex items-center space-x-4">
+<button class="material-symbols-outlined p-2 hover:bg-slate-50 dark:hover:bg-slate-800 rounded-full transition-all">notifications</button>
+<button class="material-symbols-outlined p-2 hover:bg-slate-50 dark:hover:bg-slate-800 rounded-full transition-all">account_circle</button>
+<button class="hidden md:block bg-primary text-on-primary px-6 py-2 rounded-full font-lexend font-bold text-sm uppercase tracking-wider hover:opacity-90 active:scale-95 transition-all">
+                    Join Now
+                </button>
+</div>
+</div>
+<div class="bg-slate-100 dark:bg-slate-800 h-[1px] w-full absolute bottom-0"></div>
+</nav>
+<main class="pt-24 pb-20 px-6 max-w-7xl mx-auto">
+<!-- Editorial Header -->
+<header class="mt-12 mb-16">
+<span class="text-tertiary font-headline font-bold uppercase tracking-[0.2em] text-sm">Visual Proof</span>
+<h1 class="text-5xl md:text-7xl font-headline font-black text-on-surface mt-4 tracking-tighter leading-none">
+                Momentum in <br/><span class="text-primary">Motion.</span>
+</h1>
+<p class="mt-6 text-on-surface-variant max-w-xl text-lg leading-relaxed">
+                Witness the power of sport and education as we document the journey of Sierra Leone's future leaders. From the final whistle to the final exam.
+            </p>
+</header>
+<!-- Category Tabs -->
+<div class="flex flex-wrap gap-3 mb-12">
+<button class="px-8 py-3 rounded-full bg-tertiary-container text-on-tertiary-container font-headline font-bold text-sm transition-all hover:shadow-lg">
+                All Stories
+            </button>
+<button class="px-8 py-3 rounded-full bg-surface-container text-on-surface font-headline font-bold text-sm hover:bg-surface-container-high transition-all">
+                On the Pitch
+            </button>
+<button class="px-8 py-3 rounded-full bg-surface-container text-on-surface font-headline font-bold text-sm hover:bg-surface-container-high transition-all">
+                In the Classroom
+            </button>
+<button class="px-8 py-3 rounded-full bg-surface-container text-on-surface font-headline font-bold text-sm hover:bg-surface-container-high transition-all">
+                Community Outreach
+            </button>
+</div>
+<!-- Bento Grid Gallery -->
+<div class="grid grid-cols-1 md:grid-cols-4 gap-2">
+<!-- Large Feature Card -->
+<div class="md:col-span-2 md:row-span-2 group relative overflow-hidden rounded-xl bg-surface-container h-[500px]">
+<img alt="Youth football" class="w-full h-full object-cover kinetic-crop" data-alt="dynamic wide angle shot of young Sierra Leonean boys playing football on a red dirt pitch at sunset, dramatic golden lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBc3lFhHt89Yr0RmtrMdK7LLXrn9CnNM0bhunz4Ex0kMjqdwZ9UShB9sX7V-xS2SLq9qQ-8ODL_E1nQwJfg1cOVqmG_FGGVMAuCtwZzVxq21kAqRANw804oPFdynw0Yw0q-79yGFBXedhw0FkWHvRKop5DesndNPt7USKIEkcK2XT3tE0JuGBSys5JGnsvqWFdXg8wdxqoPwB4fvxbL5TYGtK3q4xcASUZ6aqjY7MU0hdYCmNTBuP9-vce6D3lueVY4S6G6srzb0rI"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-8">
+<span class="text-secondary-fixed font-headline font-bold text-xs uppercase tracking-widest mb-2">On the Pitch</span>
+<h3 class="text-white text-3xl font-headline font-black">Championship Finals 2024</h3>
+<p class="text-white/80 text-sm mt-2 max-w-md">Celebrating the spirit of teamwork and resilience at the Freetown Youth Arena.</p>
+</div>
+</div>
+<!-- Standard Cards -->
+<div class="group relative overflow-hidden rounded-xl bg-surface-container h-[246px]">
+<img alt="Classroom learning" class="w-full h-full object-cover kinetic-crop" data-alt="close-up of a young girl's hands writing in a notebook in a sunlit African classroom setting with soft focus background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA5D2CqtuMUufJxQpGV9pymxkPn_VaRlVoxEllSlR4OvQIa4XPVgWuT73N7skOSi_ZljwRx9GhXQJqRkL8pNA421gI5OWiNPw67uzRvF4Ln6ozmpdFGRrslhwTJpHkW6gI0YGye8--YKHy069chDB87pKl8QEX1xYhoIMakuSaJOinyIlzYmTALgMw_glRKp1ShjhCqVH7dGOv-Nk2EKrSNIaB3KvgUSmOG0LlXOC6MbBvcZ9RcDvqwsMqeXVG6lbvXaZ_OH87rw-w"/>
+<div class="absolute inset-0 bg-black/40 backdrop-blur-[2px] opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+<span class="text-white font-headline font-bold text-xs border border-white/40 px-4 py-2 rounded-full backdrop-blur-md">View Education</span>
+</div>
+</div>
+<div class="group relative overflow-hidden rounded-xl bg-surface-container h-[246px]">
+<img alt="Community water project" class="w-full h-full object-cover kinetic-crop" data-alt="group of community members laughing and working together in a rural Sierra Leonean village during a sports outreach program" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC6gKhhaw7KR07MmZSr6OD1HEnfCFprPslqO0TfPOsq7qH8gbuKo4bX_fee7xnicleQtcHV1-U8hOaoIDjx_SP5bzqgce1wyp8ISJb6YXIwI8mg2rfw-MTlpznoWfeVxAXxHev5Kbcaj7WHiuJWIvHYbil56YRAcvgOeLAgJt-f1FyoPoYo8ScX2Ndx5ZjePlJu6SQ22rgwtxBaflxPcPX-ygAkqelV-nHsvfIM24kpLAwFPC1g5gS3Vq0sbvv-T5mC8qs89QT50a8"/>
+<div class="absolute inset-0 bg-black/40 backdrop-blur-[2px] opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+<span class="text-white font-headline font-bold text-xs border border-white/40 px-4 py-2 rounded-full backdrop-blur-md">Community Impact</span>
+</div>
+</div>
+<!-- Vertical Card -->
+<div class="md:row-span-2 group relative overflow-hidden rounded-xl bg-surface-container h-[500px] md:h-auto">
+<img alt="Track athlete" class="w-full h-full object-cover kinetic-crop" data-alt="low angle portrait of a teenage track athlete in Sierra Leone, focused expression, cinematic morning light catching profile" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBbt7xrrpRxo84ENysQrnwQqnuitvH4bfJdAktlLRHKlicEKqYh8req0HtwyUTbNH2bJBAdxAy0_-j4wgcc88hxcTCiZFiJIjXTTa-8lW0qBzn2nFwAr0RF9e9_r1WVnvvbjuNiAIAt6DLJlKFeG2ByUKsOX6GSuIPkcgrE6YtvcW0lRbDCkwI0pZsv59bTpS06OBOQ8CA5sXVqJf88MhncayTbif9SFUVPugX2GMpSrMK4XNT7eaYABY4JgKlldoKhVTagjbqy3pM"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/90 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6">
+<span class="text-white/80 text-xs font-bold uppercase mb-1">Athlete Spotlight</span>
+<h4 class="text-white font-headline font-bold text-xl">Mariatu's Sprint</h4>
+</div>
+</div>
+<!-- More grid items -->
+<div class="group relative overflow-hidden rounded-xl bg-surface-container h-[246px]">
+<img alt="Teacher and student" class="w-full h-full object-cover kinetic-crop" data-alt="warm interaction between a male mentor and a young student student in an outdoor educational workshop, natural daylight" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDj3lEkAUqEEdZ18E1wKf3P2aCUXtucPwQSXWJ8bZV_1xXyPvo7Id9nAsQTmPbJOd8Py4GBMVFKr_8MHb71dvnb0MCqhJJGvCH2w0c73jbocfOo3-mu7QAHYHz_ezlZfHrsGgdXhKnv6LH5AeOrhsoqMXLH2bNzHVpmoZ0oslzqr03rDVEjF7snIJ4Y40nV35gtCDDuza-CucqXwkDrmCzOvEamC7ClA0Qg_3lMhaiK0kJeZ5a-xf4yHDOIdO-JYdS5GSijaBerDK0"/>
+</div>
+<div class="md:col-span-2 group relative overflow-hidden rounded-xl bg-surface-container h-[246px]">
+<img alt="Sports field" class="w-full h-full object-cover kinetic-crop" data-alt="vibrant overhead shot of a newly renovated multi-sport court in an urban area, geometric patterns and bright colors" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCqENfoOPoQImNfhmsbRdio-_ca_csUhXYH2leEx8XLR63UFsiHAHAbbjZPdBQ2NYGhmwxQatFCvUpBwajpj45NTpwkvT8N7Z-JU2Yj5ujE9c1LYYAJpqozVVCfdxkt-4_EqmmLHaGrxwZwRHRuOpn-EwMD46msdTJjouWtDmNHeVoxhRKYbqv9NJi4XhG_cD8DDY4EMaJF-UmlU2PylM919kHaxPiTB7ndKO-BzbS6qQ6Kv16-sapRRN7G8KP-Cychp-Q3H2Balpc"/>
+</div>
+<div class="group relative overflow-hidden rounded-xl bg-surface-container h-[246px]">
+<img alt="Volunteers" class="w-full h-full object-cover kinetic-crop" data-alt="diverse group of volunteers in green shirts cheering and holding sports equipment in an open field, energetic atmosphere" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBgyEyYy23KXEQC7XytPZhILFVfs4R7Lk4j2K5v49Z97RFK1PO2v0buDs4aD85_8SL5zwK7_T2wc-aXj7RUFFb57MkUDDvJUd1JH2Aa1AnAqWBhA2vsaPfMrlbcLYpyBwg--FV-_VSQ9ae8wPpnuklHYWPAkdRCPmNhvfiHmLmgrnb8V6r9YFhaYYaktdmPxjUH3c6XNDDBcoUzCVOqFI1s4UtW1nEOXViOvMz-cyAK_zGqQMEdLsRJjF9CWcLHvTBpUSt3ZAMMC5E"/>
+</div>
+</div>
+<!-- The Momentum Bar (Call to Action) -->
+<section class="mt-24 p-12 rounded-[2.5rem] bg-primary overflow-hidden relative">
+<div class="absolute top-0 right-0 w-1/3 h-full bg-secondary-dim/20 skew-x-12 translate-x-12"></div>
+<div class="relative z-10 flex flex-col md:flex-row items-center justify-between gap-8">
+<div class="max-w-xl">
+<h2 class="text-4xl font-headline font-black text-white leading-tight">Help us build the <br/>next generation.</h2>
+<p class="text-primary-fixed mt-4 text-lg">We're aiming to expand our classroom-to-pitch program to 5 new regions this year.</p>
+</div>
+<div class="w-full md:w-auto">
+<div class="mb-2 flex justify-between text-white text-xs font-headline font-bold uppercase tracking-widest">
+<span>Campaign Goal</span>
+<span>75% Reached</span>
+</div>
+<div class="h-[12px] w-full md:w-[400px] bg-white/20 rounded-full relative overflow-hidden">
+<div class="h-full bg-secondary-fixed w-[75%] relative">
+<div class="absolute right-0 top-0 h-full w-4 bg-tertiary-fixed blur-sm"></div>
+</div>
+</div>
+<button class="mt-8 w-full bg-white text-primary px-10 py-4 rounded-full font-headline font-black uppercase tracking-widest hover:bg-tertiary hover:text-white transition-all">
+                        Support the Mission
+                    </button>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full rounded-t-[2rem] mt-20 bg-slate-50 dark:bg-slate-950">
+<div class="bg-slate-200 dark:bg-slate-800 h-[1px] w-full mb-8"></div>
+<div class="flex flex-col md:flex-row justify-between items-center px-8 py-12 max-w-7xl mx-auto">
+<div class="mb-8 md:mb-0">
+<div class="text-xl font-black text-blue-800 dark:text-blue-500 font-headline mb-4">
+                    SL Youth Sport
+                </div>
+<p class="max-w-xs text-slate-500 font-medium text-sm">Empowering the youth of Sierra Leone through the intersection of athletic excellence and educational rigor.</p>
+</div>
+<div class="flex flex-wrap justify-center gap-x-8 gap-y-4 mb-8 md:mb-0">
+<a class="text-slate-500 dark:text-slate-400 hover:text-green-600 dark:hover:text-green-400 font-manrope text-sm font-medium hover:translate-x-1 transition-transform" href="#">About Us</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-green-600 dark:hover:text-green-400 font-manrope text-sm font-medium hover:translate-x-1 transition-transform" href="#">Programs</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-green-600 dark:hover:text-green-400 font-manrope text-sm font-medium hover:translate-x-1 transition-transform" href="#">Events</a>
+<a class="text-orange-600 dark:text-orange-400 font-bold font-manrope text-sm hover:translate-x-1 transition-transform" href="#">Gallery</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-green-600 dark:hover:text-green-400 font-manrope text-sm font-medium hover:translate-x-1 transition-transform" href="#">Privacy Policy</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-green-600 dark:hover:text-green-400 font-manrope text-sm font-medium hover:translate-x-1 transition-transform" href="#">Contact</a>
+</div>
+<div class="text-slate-500 dark:text-slate-400 font-manrope text-xs text-center md:text-right">
+                © 2024 Sierra Leone Youth Sport Development. <br/>All rights reserved.
+            </div>
+</div>
+</footer>
+<!-- Mobile Navigation Shell -->
+<div class="md:hidden fixed bottom-0 left-0 w-full bg-white/95 backdrop-blur-md z-50 flex justify-around items-center py-4 px-2 shadow-[0_-4px_20px_rgba(0,0,0,0.05)]">
+<button class="flex flex-col items-center text-slate-400">
+<span class="material-symbols-outlined">home</span>
+<span class="text-[10px] font-bold mt-1 uppercase">Home</span>
+</button>
+<button class="flex flex-col items-center text-slate-400">
+<span class="material-symbols-outlined">sports_soccer</span>
+<span class="text-[10px] font-bold mt-1 uppercase">Sport</span>
+</button>
+<button class="flex flex-col items-center text-blue-700">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">photo_library</span>
+<span class="text-[10px] font-bold mt-1 uppercase">Gallery</span>
+</button>
+<button class="flex flex-col items-center text-slate-400">
+<span class="material-symbols-outlined">volunteer_activism</span>
+<span class="text-[10px] font-bold mt-1 uppercase">Impact</span>
+</button>
+</div>
+</body></html>

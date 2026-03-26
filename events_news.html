@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Events &amp; News - SL Youth Sport</title>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800;900&amp;family=Manrope:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "outline-variant": "#a1abd7",
+              "surface-container-highest": "#d4dbff",
+              "secondary-dim": "#005d26",
+              "surface-container": "#e3e7ff",
+              "on-primary-fixed-variant": "#00346e",
+              "inverse-primary": "#7cabff",
+              "primary-container": "#7cabff",
+              "on-primary-fixed": "#00102a",
+              "primary-dim": "#0b4e9c",
+              "surface-tint": "#225aa9",
+              "on-secondary-fixed-variant": "#006228",
+              "surface-container-high": "#dce1ff",
+              "outline": "#6b759e",
+              "on-primary": "#eff2ff",
+              "on-surface-variant": "#4f5a81",
+              "on-tertiary-fixed-variant": "#612900",
+              "tertiary-fixed-dim": "#fe8029",
+              "on-error-container": "#570008",
+              "inverse-surface": "#000b2f",
+              "tertiary-dim": "#843a00",
+              "tertiary-fixed": "#ff9656",
+              "secondary-fixed": "#78f08f",
+              "on-secondary": "#ceffcf",
+              "inverse-on-surface": "#919bc6",
+              "on-secondary-container": "#005723",
+              "on-tertiary-container": "#542200",
+              "tertiary-container": "#ff9656",
+              "surface": "#f6f5ff",
+              "primary-fixed": "#7cabff",
+              "on-tertiary-fixed": "#2d0f00",
+              "secondary": "#006a2c",
+              "on-primary-container": "#002b5e",
+              "surface-variant": "#d4dbff",
+              "on-tertiary": "#fff0e9",
+              "surface-dim": "#c9d3ff",
+              "surface-bright": "#f6f5ff",
+              "surface-container-low": "#eff0ff",
+              "on-error": "#ffefee",
+              "secondary-fixed-dim": "#69e182",
+              "background": "#f6f5ff",
+              "error-container": "#fb5151",
+              "on-surface": "#222d51",
+              "surface-container-lowest": "#ffffff",
+              "tertiary": "#974300",
+              "error-dim": "#9f0519",
+              "on-secondary-fixed": "#004219",
+              "on-background": "#222d51",
+              "secondary-container": "#78f08f",
+              "primary-fixed-dim": "#6e9ef1",
+              "primary": "#225aa9",
+              "error": "#b31b25"
+            },
+            fontFamily: {
+              "headline": ["Lexend"],
+              "body": ["Manrope"],
+              "label": ["Manrope"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+      .kinetic-crop {
+        clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%);
+      }
+      .momentum-track {
+        height: 12px;
+        background: #d4dbff;
+        border-radius: 9999px;
+        position: relative;
+        overflow: hidden;
+      }
+      .momentum-fill {
+        height: 100%;
+        background: #006a2c;
+        width: 65%;
+        border-radius: 9999px;
+        box-shadow: 4px 0 8px #ff9656;
+      }
+    </style>
+</head>
+<body class="bg-surface font-body text-on-surface selection:bg-tertiary-container selection:text-on-tertiary-container">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-white/80 dark:bg-slate-900/80 backdrop-blur-md shadow-sm">
+<div class="flex justify-between items-center px-6 py-4 max-w-7xl mx-auto">
+<div class="text-2xl font-black text-blue-700 dark:text-blue-400 tracking-tighter font-headline">
+                SL Youth Sport
+            </div>
+<div class="hidden md:flex items-center space-x-8 font-lexend font-bold text-sm tracking-tight uppercase">
+<a class="text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-300 transition-colors" href="#">Programs</a>
+<a class="text-blue-700 dark:text-blue-400 border-b-2 border-orange-500 pb-1" href="#">Events</a>
+<a class="text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-300 transition-colors" href="#">Impact</a>
+<a class="text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-300 transition-colors" href="#">Partners</a>
+<a class="text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-300 transition-colors" href="#">Contact</a>
+</div>
+<div class="flex items-center gap-4">
+<button class="material-symbols-outlined text-on-surface-variant hover:bg-slate-50 dark:hover:bg-slate-800 p-2 rounded-full transition-all">notifications</button>
+<button class="material-symbols-outlined text-on-surface-variant hover:bg-slate-50 dark:hover:bg-slate-800 p-2 rounded-full transition-all">account_circle</button>
+<button class="bg-primary text-on-primary px-6 py-2 rounded-full font-bold text-sm hover:opacity-90 active:scale-95 transition-all">Join Now</button>
+</div>
+</div>
+<div class="bg-slate-100 dark:bg-slate-800 h-[1px] w-full absolute bottom-0"></div>
+</nav>
+<main class="pt-24 pb-20 max-w-7xl mx-auto px-6">
+<!-- Hero Section -->
+<header class="mb-16 mt-8">
+<h1 class="font-headline text-5xl md:text-7xl font-black text-primary tracking-tighter mb-4 leading-[0.9]">
+                ACTIVITY <br/><span class="text-tertiary">HUB</span>
+</h1>
+<p class="max-w-2xl text-on-surface-variant text-lg font-medium leading-relaxed">
+                Tracking the heartbeat of youth sports in Sierra Leone. From the 15-day tour implementation to the matches that define the next generation of leaders.
+            </p>
+</header>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+<!-- Upcoming Matches (The List) -->
+<section class="lg:col-span-4 space-y-6">
+<div class="flex items-center justify-between mb-4">
+<h2 class="font-headline text-2xl font-extrabold tracking-tight uppercase">Upcoming Matches</h2>
+<span class="text-xs font-bold bg-secondary-container text-on-secondary-container px-3 py-1 rounded-full uppercase">Feb 2024</span>
+</div>
+<div class="space-y-3">
+<!-- Match Item -->
+<div class="bg-surface-container-low p-4 rounded-xl flex items-center gap-4 hover:bg-surface-container transition-colors group">
+<div class="flex-shrink-0 w-12 h-12 bg-primary-container rounded-lg flex flex-col items-center justify-center text-on-primary-container font-headline font-black">
+<span class="text-xs leading-none">FEB</span>
+<span class="text-xl leading-none">04</span>
+</div>
+<div class="flex-grow">
+<p class="font-headline text-sm font-extrabold text-on-surface uppercase tracking-wide">Bilingual High vs. Vertex Academy</p>
+<p class="text-xs text-on-surface-variant font-semibold">National Stadium Annex • 16:00 GMT</p>
+</div>
+<span class="material-symbols-outlined text-primary opacity-0 group-hover:opacity-100 transition-opacity">sports_soccer</span>
+</div>
+<div class="bg-surface-container-low p-4 rounded-xl flex items-center gap-4 hover:bg-surface-container transition-colors group border-l-4 border-tertiary">
+<div class="flex-shrink-0 w-12 h-12 bg-primary-container rounded-lg flex flex-col items-center justify-center text-on-primary-container font-headline font-black">
+<span class="text-xs leading-none">FEB</span>
+<span class="text-xl leading-none">07</span>
+</div>
+<div class="flex-grow">
+<p class="font-headline text-sm font-extrabold text-on-surface uppercase tracking-wide">St. Edwards vs. Prince of Wales</p>
+<p class="text-xs text-on-surface-variant font-semibold">Kingtom Oval • 15:30 GMT</p>
+</div>
+<span class="material-symbols-outlined text-primary opacity-0 group-hover:opacity-100 transition-opacity">sports_basketball</span>
+</div>
+<div class="bg-surface-container-low p-4 rounded-xl flex items-center gap-4 hover:bg-surface-container transition-colors group">
+<div class="flex-shrink-0 w-12 h-12 bg-primary-container rounded-lg flex flex-col items-center justify-center text-on-primary-container font-headline font-black">
+<span class="text-xs leading-none">FEB</span>
+<span class="text-xl leading-none">12</span>
+</div>
+<div class="flex-grow">
+<p class="font-headline text-sm font-extrabold text-on-surface uppercase tracking-wide">Methodist Boys vs. Albert Academy</p>
+<p class="text-xs text-on-surface-variant font-semibold">National Stadium • 10:00 GMT</p>
+</div>
+<span class="material-symbols-outlined text-primary opacity-0 group-hover:opacity-100 transition-opacity">sports_volleyball</span>
+</div>
+<div class="bg-surface-container-low p-4 rounded-xl flex items-center gap-4 hover:bg-surface-container transition-colors group">
+<div class="flex-shrink-0 w-12 h-12 bg-primary-container rounded-lg flex flex-col items-center justify-center text-on-primary-container font-headline font-black">
+<span class="text-xs leading-none">FEB</span>
+<span class="text-xl leading-none">15</span>
+</div>
+<div class="flex-grow">
+<p class="font-headline text-sm font-extrabold text-on-surface uppercase tracking-wide">Govt Model vs. Freetown Sec</p>
+<p class="text-xs text-on-surface-variant font-semibold">Brookfields Grounds • 14:00 GMT</p>
+</div>
+<span class="material-symbols-outlined text-primary opacity-0 group-hover:opacity-100 transition-opacity">sports_soccer</span>
+</div>
+</div>
+<div class="bg-surface-container-highest p-6 rounded-2xl">
+<h3 class="font-headline font-bold text-primary mb-2">Momentum Tracker</h3>
+<p class="text-xs font-semibold text-on-surface-variant mb-4 uppercase tracking-widest">Tournament Progress</p>
+<div class="momentum-track">
+<div class="momentum-fill"></div>
+</div>
+<div class="flex justify-between mt-2 text-[10px] font-black text-on-surface-variant uppercase tracking-tighter">
+<span>Regional Qualifiers</span>
+<span>Finals</span>
+</div>
+</div>
+</section>
+<!-- Past Highlights (Grid/Bento Gallery) -->
+<section class="lg:col-span-8">
+<div class="flex items-center justify-between mb-8">
+<h2 class="font-headline text-3xl font-black text-on-surface tracking-tighter">TOUR HIGHLIGHTS <span class="text-secondary opacity-50 text-xl font-medium">15-Day Implementation</span></h2>
+<button class="text-primary font-bold text-sm hover:underline">View Full Gallery</button>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-3 gap-4 auto-rows-[200px]">
+<div class="col-span-2 row-span-2 relative overflow-hidden rounded-2xl bg-slate-200">
+<img class="absolute inset-0 w-full h-full object-cover" data-alt="dynamic wide shot of youth football match in Sierra Leone under bright afternoon sun with dusty stadium background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCjXgmwtLdP2hW6PugAvCXZGxQDoNqanHgGtD6GRRj1z1i9LM_YSGZOOqT6rr8C3eY_Vq5rNxQnm8Gd8IT2pMTITO3QNYW0Di7W7Vhep83vXQpIv7QKhtHohef5q_FHLmVYfisU_O_KLn26YvCggxtbqvyECwSUUtL2boocWvBNOudwDc83mUru4Zn6Nim1Hdh-w4AJdrJr_8Ttuz2bdhkAecJ8-Qb8V5ThYUgUL71Y3Iy68JZQ7XKQL33WjHWRcM-xrXqiSUO8HPM"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent flex flex-col justify-end p-6">
+<span class="text-on-primary bg-secondary px-3 py-1 rounded-full text-xs font-black uppercase w-fit mb-2">Day 12: Kenema</span>
+<h3 class="text-on-primary font-headline text-2xl font-black leading-none">Inaugural Kickoff at the Eastern Province Field</h3>
+</div>
+</div>
+<div class="col-span-1 row-span-1 relative overflow-hidden rounded-2xl bg-slate-200 group">
+<img class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="close-up of young athlete smiling while holding a basketball on a sunlit court with urban background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBDcaDAbfQguGBduHPCQoh_mcJs5QaHch0tGyRWRrr3qpMNgn-OsiQFKDyjrQoOgw-zJrR-33Z7OCsM88UUIyf-eeWD0lojBU8HsgwNtZvCNf2FGS42403VkVFuJpUnjt5cZdlHr7lNqMdNZtvHvmAyrnYUlwSiQXedEJEo6acvqTsMjSroIFtmM15QR5vORmOW0wzzVnE1k1Y584Kho4SR9teJrtp1j34eImE7gmV6e6SFRjjZPYi0kbBcZwBBiIpaYNXdXOkyG-g"/>
+<div class="absolute inset-0 bg-black/20 backdrop-blur-[2px] opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+<span class="material-symbols-outlined text-white text-4xl">play_circle</span>
+</div>
+</div>
+<div class="col-span-1 row-span-2 relative overflow-hidden rounded-2xl bg-slate-200">
+<img class="absolute inset-0 w-full h-full object-cover" data-alt="a group of diverse students in school uniforms cheering enthusiastically in a wooden bleacher section" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBkZAEjjabqM06ph5rvgboS-p7oYK_8Y44ew1quQzDLPqymlbsaPtbcoP4D4l2DkUio5j8k5i5AKbsaN9bzViAgVkadgFePwQZ0ME8nvX7pZzMGp8txdb56BFGR_t-B2V3iz3u8AP9CCw6ICCivuNG4QHtQlra1C_z2Nek9dNlbGSDoBUVQIe7c_vPm0sB6nsVuEThxiVV48WfTYFStz3AKi9209aoKT86Wi61sQiUghJ1NXmUr3PmDxLqRDEj2UeVhD2qdiexKH3E"/>
+<div class="absolute top-4 right-4">
+<span class="material-symbols-outlined text-white" style="font-variation-settings: 'FILL' 1;">favorite</span>
+</div>
+</div>
+<div class="col-span-2 row-span-1 bg-tertiary-container rounded-2xl p-6 flex items-center justify-between overflow-hidden relative">
+<div class="z-10">
+<h4 class="font-headline font-black text-on-tertiary-container text-xl uppercase tracking-tighter">Equipment <br/>Distribution</h4>
+<p class="text-on-tertiary-container/80 text-sm font-bold mt-2">1,200+ Footballs Delivered</p>
+</div>
+<span class="material-symbols-outlined text-9xl absolute -right-4 -bottom-4 text-on-tertiary-container/10">inventory_2</span>
+</div>
+</div>
+</section>
+</div>
+<!-- Success Stories (Card Testimonials) -->
+<section class="mt-24">
+<div class="text-center mb-16">
+<span class="text-primary font-black uppercase tracking-[0.2em] text-xs">The Voices of Change</span>
+<h2 class="font-headline text-4xl md:text-5xl font-black mt-2">SUCCESS STORIES</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Testimonial 1 -->
+<div class="bg-surface-container p-8 rounded-[2rem] relative">
+<span class="material-symbols-outlined text-6xl text-primary/10 absolute top-4 left-4">format_quote</span>
+<p class="relative z-10 font-medium italic text-on-surface leading-relaxed mb-8">
+                        "Since the introduction of the sport development program, we've seen a 15% increase in attendance. The kids aren't just playing; they're learning discipline."
+                    </p>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full overflow-hidden bg-slate-300">
+<img class="w-full h-full object-cover" data-alt="portrait of a dignified middle-aged west african man with glasses wearing a crisp white shirt" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBdYnTeNlL_VOZo7isHM4eIPLxMF9EUKw8GYqiYwadQX9pv2oyjXVZsE5CRe975FZtyrlOJBlaJXcynk2cQeMlRuunyiskl6_NyhQ7KL0NExSkm-XKeS_dSwZSD1Q0SgGXn_wkiuVW7j9kMohWUK52KqUUq2Z7XiwH9kT8-lGe_K-HTePPFNRdRPqd6TsYgZ2JhJPzM9EshwJlUnIDaXlirn05iqIh1qRW7gR9ygJZCrOOFMQ_a_NaNVdy93MSZ1o2RWCwvGn4T7B4"/>
+</div>
+<div>
+<p class="font-headline font-bold text-sm text-on-surface">Mr. Alusine Bangura</p>
+<p class="text-[10px] font-black uppercase tracking-widest text-primary">Principal, Vertex Academy</p>
+</div>
+</div>
+</div>
+<!-- Testimonial 2 -->
+<div class="bg-primary text-on-primary p-8 rounded-[2rem] relative shadow-xl shadow-primary/20">
+<span class="material-symbols-outlined text-6xl text-on-primary/10 absolute top-4 left-4">format_quote</span>
+<p class="relative z-10 font-medium italic leading-relaxed mb-8">
+                        "Being part of the team taught me that leadership isn't about shouting; it's about making sure everyone is moving in the same direction."
+                    </p>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full overflow-hidden bg-slate-400">
+<img class="w-full h-full object-cover" data-alt="portrait of a confident young west african teenage girl smiling brightly in a school athletic jersey" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAzMXnFoKBpPCtiVjECgJy6I5AtWIIsUBzE8M9Kz-r9CUjxqcibIZ9_S7aTMSurAJ2zz7iFIhJHC-FpWvK96w8TnZn9YtaQlSweuNK-4Tps81oE1CHXO5CnKzLrFOGwsUjkqcvxt80e-Ce9Y0NcYDsLGJJ02ik31okQEtwltu4nOk3ngXh3V3pKhJrb4786Onl9a4SCrvfri9lMqXKe4DcVyN48Ic-6Ohzdx1OZP_5OMhLzaz5oA7DH4OO9yOYsLk17Z7C3BugX-WQ"/>
+</div>
+<div>
+<p class="font-headline font-bold text-sm">Mariama Sillah</p>
+<p class="text-[10px] font-black uppercase tracking-widest text-on-primary/70">Student &amp; Team Captain</p>
+</div>
+</div>
+</div>
+<!-- Testimonial 3 -->
+<div class="bg-surface-container p-8 rounded-[2rem] relative">
+<span class="material-symbols-outlined text-6xl text-primary/10 absolute top-4 left-4">format_quote</span>
+<p class="relative z-10 font-medium italic text-on-surface leading-relaxed mb-8">
+                        "The equipment donation was just the start. The coaching clinics have fundamentally changed how our physical education teachers approach youth engagement."
+                    </p>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full overflow-hidden bg-slate-300">
+<img class="w-full h-full object-cover" data-alt="portrait of an athletic man in a polo shirt looking thoughtfully into the camera against an outdoor field background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAO27DcLc14CqhBrcumWxV58ZzNrlfswdHyFqqtEYCcTCRURm-IWzSebZPAts7z6cKYjDEAgqc8LJJ6jiIKFa32OJEZmh2YEBb5zpgBXlbNQUl98wp6T7W9yHI6mJzaOhC0smMQlBvbmMf2kehiVT4rbm__P04dSq1nK_9sWTeCEVQkKHrCgh-k6NdHatz1baN1ej1biS_LkxFoUPRgmwx8XdbNEGun0h9AuYwIruD1UtPSOb6TFJ0S47i7yHXacgzrNxMXo4JNV1g"/>
+</div>
+<div>
+<p class="font-headline font-bold text-sm text-on-surface">Coach Ibrahim Kamara</p>
+<p class="text-[10px] font-black uppercase tracking-widest text-primary">Head Coach, Bilingual High</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Call to Action -->
+<section class="mt-32 mb-12 bg-surface-container-highest rounded-[3rem] overflow-hidden flex flex-col md:flex-row items-center">
+<div class="p-12 md:w-1/2">
+<h2 class="font-headline text-4xl font-black text-primary leading-none mb-6">DON'T MISS THE FINALS</h2>
+<p class="text-on-surface-variant font-medium mb-8">Join thousands of supporters at the Siaka Stevens Stadium for the Grand Finale of the SL Youth Sport Championship.</p>
+<div class="flex flex-wrap gap-4">
+<button class="bg-tertiary text-on-tertiary px-8 py-4 rounded-full font-headline font-bold uppercase tracking-widest hover:opacity-90 active:scale-95 transition-all">Get Tickets</button>
+<button class="bg-surface-container-lowest text-primary border border-primary/20 px-8 py-4 rounded-full font-headline font-bold uppercase tracking-widest hover:bg-white transition-all">Add to Calendar</button>
+</div>
+</div>
+<div class="md:w-1/2 h-[400px] w-full relative">
+<img class="absolute inset-0 w-full h-full object-cover kinetic-crop" data-alt="blurred motion of a football player mid-kick with bright stadium lights creating a bokeh effect" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDISGQV1VqyDQ_LNOzP44rhqQRIyQ4nNVPwhbCN3zdNGN8UQQhikOSjf0yPbKbfUQPrc10jquuIWMkfX1IPW8qoWcCweowp2neXnjipc_UPmfPra_a9fBAYBsMKUlk2JmiTjopVZGbRQ-woZkFgDLt_iLFwUVZ6xxA0AQjmVmnD8jYVu1v97PBbgrKfiu3gREWaETevZYDEtei2lDT4IFzbbdus7vEwwSH32978L3D626zxKVMhZJP8Z3d8g5V4WK06vl9I8ZDUxJk"/>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full rounded-t-[2rem] mt-20 bg-slate-50 dark:bg-slate-950">
+<div class="bg-slate-200 dark:bg-slate-800 h-[1px] w-full mb-8"></div>
+<div class="flex flex-col md:flex-row justify-between items-center px-8 py-12 max-w-7xl mx-auto">
+<div class="text-xl font-black text-blue-800 dark:text-blue-500 font-headline mb-8 md:mb-0">
+                SL Youth Sport
+            </div>
+<div class="flex flex-wrap justify-center gap-8 mb-8 md:mb-0 font-manrope text-sm font-medium">
+<a class="text-slate-500 dark:text-slate-400 hover:text-green-600 dark:hover:text-green-400 transition-transform hover:translate-x-1" href="#">About Us</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-green-600 dark:hover:text-green-400 transition-transform hover:translate-x-1" href="#">Programs</a>
+<a class="text-orange-600 dark:text-orange-400 font-bold transition-transform hover:translate-x-1" href="#">Events</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-green-600 dark:hover:text-green-400 transition-transform hover:translate-x-1" href="#">Gallery</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-green-600 dark:hover:text-green-400 transition-transform hover:translate-x-1" href="#">Privacy Policy</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-green-600 dark:hover:text-green-400 transition-transform hover:translate-x-1" href="#">Contact</a>
+</div>
+<div class="text-slate-500 dark:text-slate-400 text-xs text-center md:text-right font-medium max-w-[250px]">
+                © 2024 Sierra Leone Youth Sport Development. All rights reserved.
+            </div>
+</div>
+</footer>
+</body></html>
