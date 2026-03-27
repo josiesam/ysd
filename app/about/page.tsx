@@ -30,7 +30,7 @@ export default function AboutPage() {
               <img
                 className="w-full h-full object-cover"
                 alt="Dynamic close up of youth soccer players in Sierra Leone celebrating a goal on a coastal sand pitch at sunset"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCd0KfWp2sqA7GOyAeYuKmrMsCiDg9fqZ9kwCvnbchT7Hl2d-wms2HbMrYycbhUPXgUtDLbztat9DBB8N2ZMGBqfGdRnXrmESFN1rOBrpErmzTRSU564nD418XZ089RDWLNIaqowID_gOeWinpL8Cu3WfA5IKYUSOnO2nJpkwYTFDn0l18KL9CDSZj7lKV_hF8KmeksApbvp6uk-He1kzXST22mfNRD9uJ79WbX65nIroJTOzxgCZ3tju_rBla5YJV5w0ZQA4SN1Yo"
+                src="https://ff6afvdal8w6atua.public.blob.vercel-storage.com/heart_beat.jpeg"
               />
             </div>
             <div className="absolute -bottom-6 -left-6 bg-tertiary-container p-8 rounded-3xl shadow-xl hidden md:block max-w-[200px]">
@@ -151,7 +151,7 @@ export default function AboutPage() {
                 img: "https://ff6afvdal8w6atua.public.blob.vercel-storage.com/bahj.jpeg",
               },
               {
-                name: "Allan Simeon Leigh Sesay",
+                name: "Allan Simeon Leigh",
                 title: "Project Manager",
                 bio: "",
                 // bio: "Fatmata bridges the gap between the field and the classroom, ensuring every athlete maintains a 3.5 GPA and remains on track for university placement.",

@@ -10,7 +10,7 @@ export default function HomePage() {
           className="absolute inset-0 opacity-20 -z-10"
           style={{
             backgroundImage:
-              "url('https://lh3.googleusercontent.com/aida-public/AB6AXuC6Et_nQTVC99_rzZS4voP_C30ZncrE2QrEWBY5Y-1VlrZz60mSAjFsd9BWsmmVnRmAjf_pil3yL67-5kQMn9FIoRcHEV98tplDw5vUeqI-UTC33ziIdyTwXSqfzZYN7HXvBh9G3ik2hg3X0_8k0GdAOUD_z7YtSEqZpSszpvbQR7vht0KQkWFRlwRqucFZQ5f-C0Z6AJ6lkDWjVIBaROh9_CN9nE4jhhw5eqcRtm46bwH04K5Ut3wNAHGA1637tQcUQoEyQb0bYLg')",
+              "url('https://ff6afvdal8w6atua.public.blob.vercel-storage.com/landingpage.jpeg')",
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
@@ -97,7 +97,7 @@ export default function HomePage() {
             <img
               className="absolute bottom-[-10%] right-[-10%] w-2/3 grayscale opacity-30 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700 rotate-12"
               alt="Group of smiling school children in Sierra Leone wearing school uniforms and holding footballs"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuCLbCenwRjjXf9gAC0_qsCJlJ6pTLg0etuTJSzp7szNOSe6htkxQ9GQ4FBfDoJUiw4ZxFxLlfWTlbE6IOus9NMEupHX75qCV-xV2kNe2XAkLY_mc2s2ti5CkQxIfec1iIpGFCRxDx9mBzaaO0RwiTj8i2WsayKnY1Ic7hO7rusHdmdhmc_jN1pVQ9fYp3foXB1k_E9fZMgCyyjfn2Q05xcRlye3gRkuIs65Z3YhiqnqSoAazHgcqId-CPdJ90pN8c3oagCnFyOC5_c"
+              src="https://ff6afvdal8w6atua.public.blob.vercel-storage.com/school_partnership.jpeg"
             />
           </div>
           <div className="md:col-span-2 bg-tertiary-container rounded-[2rem] p-10 flex flex-col justify-center relative overflow-hidden">
@@ -153,7 +153,7 @@ export default function HomePage() {
                 <img
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                   alt="Young athlete leading a team huddle on a dusty football pitch at sunset"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuBY5Ofd0d6RgzbqjMvC6fPGXq8WHyxs1aioIEVrwOHbTLf-pbacCqkijKW0TLtgHK6tppJ_n8FYy2zmdFL4_y6wUlLz7GhR2cUb8QbF_28SNbPxRHuTcslF6DxcChy4XL22xb5ZIT05cQAWYSge8LfCKeouVLf9Y4KwFQGp5jvES5JFZJn7QqAKRfNEk0jM69uy9k4RkLhKSgG_3jNL0zkLOy06FybzKVqC3Iunz6O9KcsQ0x3aJiUdk6nEewFhDH1hUyoJDib-luM"
+                  src="https://ff6afvdal8w6atua.public.blob.vercel-storage.com/school_tour.jpeg"
                 />
               </div>
               <div className="px-8 pb-10">
@@ -187,7 +187,7 @@ export default function HomePage() {
                 <img
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                   alt="Intense action shot of a soccer player kicking a ball during a high-stakes local tournament match"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuD0esEp06MD7rmEKed8vNwNW1n_bbSOIV4XEpX1J2J0Tg6CMHqANiHmhhE4SPuAeAmp5ydII-nE7H9DsQMU2EQcC9N2VTSf7OFJC6IrqsA6Vau2LhJ416A65SUg5VnM-uuPjtA4AyU6aF2Y06BF3qWxRAwtH3mYazacAabQYyPYvnloSD5rcRxRCL9pJyZLGzyfolkSO39W9SzOJuS_VEjr42NnM-9vsCrEP9WRaIPlUq8NpJrpIPCsBeqBDph8eZuMqz6tzCZsw8c"
+                  src="https://ff6afvdal8w6atua.public.blob.vercel-storage.com/tournament.jpeg"
                 />
               </div>
               <div className="px-8 pb-10">

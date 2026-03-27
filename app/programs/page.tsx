@@ -76,7 +76,7 @@ export default function ProgramsPage() {
               <img
                 alt="Group of energetic Sierra Leonean primary school children laughing and playing football on a dirt pitch"
                 className="w-full h-full object-cover"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuA1eegC8R1BZO_Mh5mp5XxpGrNwSOr-9TMbQ_PtoOKtTOBiynsFY1-tq5lbdIPW7vJaO-BtoRhWac5UQ2LqThESSrI45_rTxTywJ9N5N2sQEXYWpdPOoI4Stxx41k1haqgdnyJ-EVgYMvKuNDzQNXfiIoS9hTQw7QKu3b2P3LoJBpPQKsWBUr-u4R3UG1uzVYVAaD46julsGTqcMdN6S5JOo9tW7qGOjp0jliVuNs4zAYpUGYU6GGIB98y8nNlUp56i1gg71So7vRQ"
+                src="https://ff6afvdal8w6atua.public.blob.vercel-storage.com/school_tour.jpeg"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-secondary/40 to-transparent" />
             </div>
@@ -137,7 +137,7 @@ export default function ProgramsPage() {
             <img
               alt="Athletic soccer player in motion on a green field during a competitive match"
               className="absolute inset-0 w-full h-full object-cover grayscale mix-blend-overlay opacity-30 group-hover:scale-110 transition-transform duration-1000"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuDjUs55otBH3qA0ynoSu7mRb3tIa3TFfzV-Rz3MBvMXt7hNKAwn_Mz6RDN_s68UkElRyyJAhJcIuH5eHhrLdvHs3_PBsqfamqssGcmQJMSKSP7lojCMCk-_0NVFHamf_GGRtCNF2y9QdhhC46xhRaBBX1rpLjmcwZ3bbZMhHj5uC7No8ZhQfnRlgbsF9I8tdZ6ovqnn15BBwmf6GIAeJYFqwIEV7bkc_u4-7GWuv7hC2i3VF7V1ti7_svgdpdDmW0Kw8-oBMGHcmcs"
+              src="https://ff6afvdal8w6atua.public.blob.vercel-storage.com/dribble.jpeg"
             />
             <div className="relative z-10">
               <h4 className="font-headline text-2xl font-black text-on-secondary-container mb-4">

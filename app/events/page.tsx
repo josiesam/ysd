@@ -157,14 +157,14 @@ export default function EventsPage() {
               <img
                 className="absolute inset-0 w-full h-full object-cover"
                 alt="Dynamic wide shot of youth football match in Sierra Leone under bright afternoon sun"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCjXgmwtLdP2hW6PugAvCXZGxQDoNqanHgGtD6GRRj1z1i9LM_YSGZOOqT6rr8C3eY_Vq5rNxQnm8Gd8IT2pMTITO3QNYW0Di7W7Vhep83vXQpIv7QKhtHohef5q_FHLmVYfisU_O_KLn26YvCggxtbqvyECwSUUtL2boocWvBNOudwDc83mUru4Zn6Nim1Hdh-w4AJdrJr_8Ttuz2bdhkAecJ8-Qb8V5ThYUgUL71Y3Iy68JZQ7XKQL33WjHWRcM-xrXqiSUO8HPM"
+                src="https://ff6afvdal8w6atua.public.blob.vercel-storage.com/training.jpeg"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent flex flex-col justify-end p-6">
                 <span className="text-on-primary bg-secondary px-3 py-1 rounded-full text-xs font-black uppercase w-fit mb-2">
-                  Day 12: Kenema
+                  Day 3
                 </span>
                 <h3 className="text-on-primary font-headline text-2xl font-black leading-none">
-                  Inaugural Kickoff at the Eastern Province Field
+                  Friendly Match
                 </h3>
               </div>
             </div>
@@ -173,7 +173,7 @@ export default function EventsPage() {
               <img
                 className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 alt="Close-up of young athlete smiling while holding a basketball on a sunlit court"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBDcaDAbfQguGBduHPCQoh_mcJs5QaHch0tGyRWRrr3qpMNgn-OsiQFKDyjrQoOgw-zJrR-33Z7OCsM88UUIyf-eeWD0lojBU8HsgwNtZvCNf2FGS42403VkVFuJpUnjt5cZdlHr7lNqMdNZtvHvmAyrnYUlwSiQXedEJEo6acvqTsMjSroIFtmM15QR5vORmOW0wzzVnE1k1Y584Kho4SR9teJrtp1j34eImE7gmV6e6SFRjjZPYi0kbBcZwBBiIpaYNXdXOkyG-g"
+                src="https://ff6afvdal8w6atua.public.blob.vercel-storage.com/tour%20highlight"
               />
               <div className="absolute inset-0 bg-black/20 backdrop-blur-[2px] opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                 <span className="material-symbols-outlined text-white text-4xl">
@@ -186,7 +186,7 @@ export default function EventsPage() {
               <img
                 className="absolute inset-0 w-full h-full object-cover"
                 alt="A group of diverse students in school uniforms cheering enthusiastically in bleachers"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBkZAEjjabqM06ph5rvgboS-p7oYK_8Y44ew1quQzDLPqymlbsaPtbcoP4D4l2DkUio5j8k5i5AKbsaN9bzViAgVkadgFePwQZ0ME8nvX7pZzMGp8txdb56BFGR_t-B2V3iz3u8AP9CCw6ICCivuNG4QHtQlra1C_z2Nek9dNlbGSDoBUVQIe7c_vPm0sB6nsVuEThxiVV48WfTYFStz3AKi9209aoKT86Wi61sQiUghJ1NXmUr3PmDxLqRDEj2UeVhD2qdiexKH3E"
+                src="https://ff6afvdal8w6atua.public.blob.vercel-storage.com/cheers.jpeg"
               />
               <div className="absolute top-4 right-4">
                 <span
@@ -217,7 +217,7 @@ export default function EventsPage() {
       </div>
 
       {/* Success Stories */}
-      <section className="mt-24">
+      {/* <section className="mt-24">
         <div className="text-center mb-16">
           <span className="text-primary font-black uppercase tracking-[0.2em] text-xs">
             The Voices of Change
@@ -282,7 +282,7 @@ export default function EventsPage() {
             </div>
           ))}
         </div>
-      </section>
+      </section> */}
 
       {/* CTA */}
       <section className="mt-32 mb-12 bg-surface-container-highest rounded-[3rem] overflow-hidden flex flex-col md:flex-row items-center">
@@ -307,7 +307,7 @@ export default function EventsPage() {
           <img
             className="absolute inset-0 w-full h-full object-cover kinetic-crop"
             alt="Blurred motion of a football player mid-kick with bright stadium lights creating a bokeh effect"
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuDISGQV1VqyDQ_LNOzP44rhqQRIyQ4nNVPwhbCN3zdNGN8UQQhikOSjf0yPbKbfUQPrc10jquuIWMkfX1IPW8qoWcCweowp2neXnjipc_UPmfPra_a9fBAYBsMKUlk2JmiTjopVZGbRQ-woZkFgDLt_iLFwUVZ6xxA0AQjmVmnD8jYVu1v97PBbgrKfiu3gREWaETevZYDEtei2lDT4IFzbbdus7vEwwSH32978L3D626zxKVMhZJP8Z3d8g5V4WK06vl9I8ZDUxJk"
+            src="https://ff6afvdal8w6atua.public.blob.vercel-storage.com/kick.jpeg"
           />
         </div>
       </section>
