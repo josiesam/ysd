@@ -144,7 +144,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             {[
               {
-                name: "Mamadu Bah",
+                name: "Mamadu Seray Bah",
                 title: "Founder & CEO",
                 bio: "",
                 // bio: "A former athlete and educational consultant, Mamadu founded YSD with the belief that sport is the most powerful tool for social mobility in Sierra Leone.",
