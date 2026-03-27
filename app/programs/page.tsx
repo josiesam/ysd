@@ -244,7 +244,8 @@ export default function ProgramsPage() {
             <div className="glass-card-light p-4 rounded-3xl border border-white/10 relative">
               <img
                 alt="Intense black and white portrait of a young African athlete with determined eyes"
-                className="rounded-2xl w-full aspect-[4/5] object-cover grayscale"
+                className="rounded-2xl w-full aspect-[4/5] object-cover 
+             brightness-0 contrast-200"
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuBotS0L56cIMNG3nZjuUiNRT6JiHDahRrAVWjYOzE0P8McaEf2bQfVHF9ePLHqiui_596dhbsGPzohxCXz_-Fm40TiaWMf0yTP8WNcGlNMmnNtSJocB1jSD0VZsLG-smmXzUqtJVXCD8ONo9v4LBWNas6tiNBVAP9-MwZFeFiwt_194iO-c0FsfOp3JfR0-QOJsdHS43DvCBeUNHE6WqALVU9mQKAzsJnoCwp1azGrsLd0oQGEGI5ADBM2XxZwbF3jcPvjhqz9LB9I"
               />
               <div className="absolute bottom-10 left-10 right-10 p-6 bg-error text-on-error rounded-2xl shadow-2xl">

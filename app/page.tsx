@@ -221,7 +221,7 @@ export default function HomePage() {
                 <img
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                   alt="Close-up of two young men engaged in a serious conversation, portraying a moment of mentorship and support"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuAE2kYDeSmOILCCM8YWwBx1fjQSNQsfo8MxrmebhThGvfcbfDuOVAA7Z4QgwYHfasvbsCYRf0czD-QaU5S382sHqvbjwkT7qh3qtzOOjHJvhuNTlBXbjCxu29ijzL4UciCBMO-v7xE7QvXUU1vqGf5bXMsjRbsZQbSmDEoI1rRUBB2MxNUKA44YWrpUKK-1vP3w8bKBzPEvSsNO6SNaKT73j4q3Oam1j5C2YYLsRLcfMDQaTfUbSAw_Ea9e7uHQwrbz9bX91GGqZGI"
+                  src="https://ff6afvdal8w6atua.public.blob.vercel-storage.com/at_risk"
                 />
               </div>
               <div className="px-8 pb-10">
