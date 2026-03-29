@@ -100,7 +100,7 @@ export default function ProgramsPage() {
                   </span>
                 </div>
                 <h3 className="font-headline font-bold text-lg">
-                  Premier Football Gala
+                  Private Football Tournament
                 </h3>
               </div>
               <h2 className="font-headline text-4xl md:text-6xl font-black mb-6 leading-[0.9]">

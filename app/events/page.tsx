@@ -87,10 +87,10 @@ export default function EventsPage() {
         <section className="lg:col-span-4 space-y-6">
           <div className="flex items-center justify-between mb-4">
             <h2 className="font-headline text-2xl font-extrabold tracking-tight uppercase">
-              Upcoming Matches
+              Matches
             </h2>
             <span className="text-xs font-bold bg-secondary-container text-on-secondary-container px-3 py-1 rounded-full uppercase">
-              Feb 2024
+              2025/2026
             </span>
           </div>
           <div className="space-y-3">
@@ -147,9 +147,12 @@ export default function EventsPage() {
                 15-Day Implementation
               </span>
             </h2>
-            <button className="text-primary font-bold text-sm hover:underline">
+            <a
+              href="/gallery"
+              className="text-primary font-bold text-sm hover:underline"
+            >
               View Full Gallery
-            </button>
+            </a>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4 auto-rows-[200px]">
             {/* Featured */}

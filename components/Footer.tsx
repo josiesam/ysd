@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -5,7 +6,7 @@ const footerLinks = [
   { label: "About Us", href: "/about" },
   { label: "Programs", href: "/programs" },
   { label: "Events", href: "/events" },
-  // { label: "Gallery", href: "/gallery" },
+  { label: "Gallery", href: "/gallery" },
   { label: "Contact", href: "/contact" },
   { label: "Privacy Policy", href: "#" },
 ];
@@ -18,6 +19,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="flex flex-col gap-2">
             <div className="flex items-center gap-3">
+              Ç
               <Image
                 src="/web-app-manifest-512x512.png"
                 alt="logo"
@@ -49,12 +51,23 @@ export default function Footer() {
           </div>
 
           <div className="flex gap-4">
-            <div className="w-10 h-10 rounded-full bg-slate-200 flex items-center justify-center text-blue-700 hover:bg-blue-700 hover:text-white transition-all cursor-pointer">
+            <div
+              className="w-10 h-10 rounded-full bg-slate-200 flex items-center justify-center text-blue-700 hover:bg-blue-700 hover:text-white transition-all cursor-pointer"
+              onClick={() =>
+                navigator.share({
+                  title: "Youth Sport Development Sierra Leone",
+                  url: "https://youthsportdevelopment.sl/",
+                })
+              }
+            >
               <span className="material-symbols-outlined text-xl">share</span>
             </div>
-            <div className="w-10 h-10 rounded-full bg-slate-200 flex items-center justify-center text-blue-700 hover:bg-blue-700 hover:text-white transition-all cursor-pointer">
+            <a
+              href="mailto:youthsportdevelopment.sl.lg@gmail.com"
+              className="w-10 h-10 rounded-full bg-slate-200 flex items-center justify-center text-blue-700 hover:bg-blue-700 hover:text-white transition-all cursor-pointer"
+            >
               <span className="material-symbols-outlined text-xl">mail</span>
-            </div>
+            </a>
           </div>
         </div>
       </div>
