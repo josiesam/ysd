@@ -13,7 +13,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
           <div className="md:col-span-7 z-10">
             <span className="inline-block px-4 py-1 rounded-full bg-secondary-container text-on-secondary-container font-headline text-xs font-bold uppercase tracking-widest mb-6">
-              Established 2018
+              Established 2023
             </span>
             <h1 className="font-headline text-5xl md:text-7xl font-black text-on-surface leading-none tracking-tighter mb-8">
               Our Heart Beats in{" "}
@@ -35,7 +35,7 @@ export default function AboutPage() {
             </div>
             <div className="absolute -bottom-6 -left-6 bg-tertiary-container p-8 rounded-3xl shadow-xl hidden md:block max-w-[200px]">
               <p className="font-headline font-black text-4xl text-on-tertiary-container">
-                500+
+                200+
               </p>
               <p className="font-body text-sm font-bold text-on-tertiary-container/80">
                 Athletes Empowered Annually
@@ -63,7 +63,7 @@ export default function AboutPage() {
               </h3>
               <p className="text-on-surface-variant leading-relaxed text-lg mb-6">
                 It started with a single ball and five kids on Lakka Beach. In
-                2018, Mamadu Bah saw that talent in Sierra Leone was abundant,
+                2023, Mamadu Bah saw that talent in Sierra Leone was abundant,
                 but opportunity was scarce. He envisioned a space where sports
                 wasn&apos;t just a game, but a gateway to university and
                 professional leadership.
@@ -162,7 +162,7 @@ export default function AboutPage() {
                 bio: "",
                 title: "Finance Officer",
                 // bio: "With 15 years of coaching experience in West Africa, Ibrahim oversees the technical development and physical conditioning of our premier teams.",
-                img: "https://ff6afvdal8w6atua.public.blob.vercel-storage.com/WhatsApp%20Image%202026-03-26%20at%2008.32.51.jpeg",
+                img: "https://ff6afvdal8w6atua.public.blob.vercel-storage.com/albertina.jpeg",
               },
             ].map((leader) => (
               <div key={leader.name} className="group">
@@ -181,6 +181,9 @@ export default function AboutPage() {
                 <h4 className="font-headline text-2xl font-black text-on-surface">
                   {leader.name}
                 </h4>
+                <p className="text-xs font-bold text-primary font-headline uppercase">
+                  {leader.title}
+                </p>
                 <p className="text-on-surface-variant mt-2 leading-relaxed">
                   {leader.bio}
                 </p>

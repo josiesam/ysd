@@ -7,6 +7,7 @@ const categories = [
   "On the Pitch",
   "In the Classroom",
   "School Outreach",
+  "Sport Stakeholders",
 ];
 
 const galleryImages = [
@@ -150,27 +151,30 @@ export default function GalleryPage({ images }: { images: TImage[] }) {
                 {img.span === "large" ? (
                   <>
                     <span className="text-secondary-fixed font-headline font-bold text-xs uppercase tracking-widest mb-2">
-                      On the Pitch
+                      {img.category}
                     </span>
-                    <h3 className="text-white text-3xl font-headline font-black">
+                    {/* <h3 className="text-white text-3xl font-headline font-black">
                       {img.label}
-                    </h3>
-                    <p className="text-white/80 text-sm mt-2 max-w-md">
+                    </h3> */}
+                    {/* <p className="text-white/80 text-sm mt-2 max-w-md">
                       {img.sublabel}
-                    </p>
+                    </p> */}
                   </>
                 ) : img.span === "tall" ? (
                   <>
                     <span className="text-white/80 text-xs font-bold uppercase mb-1">
+                      {img.category}
+                    </span>
+                    {/* <span className="text-white/80 text-xs font-bold uppercase mb-1">
                       {img.sublabel}
                     </span>
                     <h4 className="text-white font-headline font-bold text-xl">
                       {img.label}
-                    </h4>
+                    </h4> */}
                   </>
                 ) : (
                   <span className="text-white font-headline font-bold text-xs border border-white/40 px-4 py-2 rounded-full backdrop-blur-md">
-                    {img.label}
+                    {img.category}
                   </span>
                 )}
               </div>

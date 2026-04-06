@@ -50,23 +50,23 @@ export default function HomePage() {
         <div className="scrolling-ticker flex gap-12 items-center">
           <span className="flex items-center gap-4 text-on-surface-variant font-bold">
             <span className="w-2 h-2 rounded-full bg-error animate-pulse inline-block" />
-            Lebanese School 2 - 1 Standard International
+            BILINGUAL HIGH SCHOOL VS. VERTEX INTERNATIONAL ACADEMY
           </span>
           <span className="text-outline-variant">|</span>
           <span className="flex items-center gap-4 text-on-surface-variant font-bold">
             <span className="w-2 h-2 rounded-full bg-secondary inline-block" />
-            Lakka Academy vs. Hamilton High (Starts 15:00)
+            LEBANESE INTERNATIONAL SCHOOL 2-1 STANDARDS INTERNATIONAL SCHOOL
           </span>
           <span className="text-outline-variant">|</span>
           <span className="flex items-center gap-4 text-on-surface-variant font-bold">
-            Prince of Wales 0 - 0 Methodist Boys
+            MURRAYDEEN PREPARATORY SCHOOL VS. BILINGUAL ELEMENTRY SCHOOL
           </span>
           <span className="text-outline-variant">|</span>
           <span className="flex items-center gap-4 text-on-surface-variant font-bold">
-            St. Edwards vs. Albert Academy (Postponed)
+            HILL VALLEY ACADEMY 3-3 LAKKA COMMUNITY PRIMARY SCHOOL
           </span>
           {/* Duplicate for seamless loop */}
-          <span className="flex items-center gap-4 text-on-surface-variant font-bold">
+          {/* <span className="flex items-center gap-4 text-on-surface-variant font-bold">
             <span className="w-2 h-2 rounded-full bg-error animate-pulse inline-block" />
             Lebanese School 2 - 1 Standard International
           </span>
@@ -74,7 +74,7 @@ export default function HomePage() {
           <span className="flex items-center gap-4 text-on-surface-variant font-bold">
             <span className="w-2 h-2 rounded-full bg-secondary inline-block" />
             Lakka Academy vs. Hamilton High (Starts 15:00)
-          </span>
+          </span> */}
         </div>
       </div>
 
@@ -84,7 +84,7 @@ export default function HomePage() {
           <div className="md:col-span-2 md:row-span-2 bg-surface-container rounded-[2rem] p-10 flex flex-col justify-between relative overflow-hidden group">
             <div className="relative z-10">
               <span className="text-tertiary font-black text-8xl md:text-9xl tracking-tighter block mb-4">
-                15
+                15+
               </span>
               <h3 className="text-3xl font-headline font-black text-primary leading-tight">
                 Partner Schools <br /> Across the Peninsula
@@ -253,7 +253,7 @@ export default function HomePage() {
       </section>
 
       {/* Partners Section */}
-      <section className="py-24 px-6 max-w-7xl mx-auto">
+      {/* <section className="py-24 px-6 max-w-7xl mx-auto">
         <h4 className="text-center text-outline-variant font-bold uppercase tracking-widest text-sm mb-12">
           Trusted By World-Class Partners
         </h4>
@@ -281,7 +281,7 @@ export default function HomePage() {
             </span>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
       <section className="mx-6 mb-24">

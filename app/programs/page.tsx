@@ -54,7 +54,7 @@ export default function ProgramsPage() {
               <div className="grid grid-cols-2 gap-4">
                 <div className="bg-surface-container-lowest p-6 rounded-2xl border border-secondary/10">
                   <h4 className="font-headline font-black text-2xl text-secondary mb-1">
-                    45+
+                    15+
                   </h4>
                   <p className="text-xs font-bold uppercase tracking-tighter text-on-surface-variant">
                     Schools Visited
@@ -62,7 +62,7 @@ export default function ProgramsPage() {
                 </div>
                 <div className="bg-surface-container-lowest p-6 rounded-2xl border border-secondary/10">
                   <h4 className="font-headline font-black text-2xl text-secondary mb-1">
-                    12k+
+                    1000+
                   </h4>
                   <p className="text-xs font-bold uppercase tracking-tighter text-on-surface-variant">
                     Students Engaged

@@ -6,6 +6,7 @@ const folderToCategory: Record<string, string> = {
   in_the_classroom: "In the Classroom",
   on_the_pitch: "On the Pitch",
   school_enagement: "School Outreach",
+  sport_stakeholders: "Sport Stakeholders",
 };
 
 export default function Page() {

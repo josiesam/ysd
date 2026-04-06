@@ -39,7 +39,7 @@ export default function ContactPage() {
           <img
             alt="Dynamic close-up of young West African soccer players in vibrant jerseys high-fiving during a sunny afternoon training session"
             className="w-full h-full object-cover"
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuDfRob7FF1Bu8FLq0EkvPG8NAU3Z3lrzc1Ae49zJyo2GE7t8Dywb86M6Foh5p-hmMlttCL81kIovf26HueNbjes1VcZSrX8Cdgo8S18sboXV_P0UtRPnfprdxcQUdCd6DsToDYlsRFXx8PEi_E10DyKEttNOdOrTTGQDCBEtDCWzyt1NnccZIKdOTV5a2AaW7zMtgSx3-h4mZRExZtvZFJ9SVr6fSn0chSREUYQNuvl1MF62hW7aPL_XGw7R0OYavKYJ9LlKGZR1TU"
+            src="https://ff6afvdal8w6atua.public.blob.vercel-storage.com/legacy.jpeg"
           />
           <div className="absolute bottom-6 left-6 right-6 glass-effect p-6 rounded-2xl">
             <p className="font-headline font-bold text-primary italic text-xl">
