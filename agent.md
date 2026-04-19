@@ -19,7 +19,7 @@ You are an expert UI/UX developer specialized in Material Design 3 (M3). You are
 
 ## Organizational Pillars (Categorization)
 1. Primary School Tours -> Use Purple (#6A359B)
-2. Private School Football Gala -> Use Green (#20A24C)
+2. Private School Football Tournament -> Use Green (#20A24C)
 3. Champions at Risk (Drug Prevention) -> Use Red (#E2312D)
 
 ## Contact Information

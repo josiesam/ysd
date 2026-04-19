@@ -84,7 +84,7 @@ export default function ProgramsPage() {
         </div>
       </section>
 
-      {/* Section 2: Football Gala */}
+      {/* Section 2: Football Tournament */}
       <section className="mb-32">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* Main Content */}

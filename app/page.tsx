@@ -197,7 +197,7 @@ export default function HomePage() {
                   </span>
                 </div>
                 <h3 className="text-2xl font-black font-headline mb-4">
-                  Football Gala
+                  Football Tournament
                 </h3>
                 <p className="text-on-surface-variant mb-6 leading-relaxed">
                   High-energy athletic competitions that foster teamwork,
