@@ -100,9 +100,11 @@ export default function AboutPage() {
                 The Vision
               </span>
             </div>
-            <h3 className="font-headline text-4xl md:text-5xl font-black text-white leading-tight">
-              To be the catalyst for the next generation of Sierra Leonean
-              global leaders through the power of sport.
+            <h3 className="font-headline text-xl md:text-2xl font-black text-white leading-tight">
+              We envision Sierra Leone as a leading hub for integrated sports
+              and education development in West Africa. A place where young
+              people combine athletic excellence with academic achievement to
+              unlock global opportunities.
             </h3>
           </div>
           <div className="space-y-8">
@@ -113,9 +115,9 @@ export default function AboutPage() {
               </span>
             </div>
             <p className="text-xl md:text-2xl text-purple-100 font-medium leading-relaxed">
-              We provide elite athletic training, comprehensive educational
-              support, and mentorship programs that transform local potential
-              into international excellence.
+              We empower young people through inclusive sports programs,
+              promoting talent, leadership, teamwork, and healthy lifestyles
+              while nurturing future leaders.
             </p>
             <div className="pt-4">
               <div className="flex justify-between text-white/80 text-xs font-bold uppercase mb-2">
