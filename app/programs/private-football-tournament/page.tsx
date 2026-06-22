@@ -454,7 +454,7 @@ export default function PrimarySchoolTourPage() {
                 What We Are Delivering
               </h2>
               <div className="w-[44px] h-[2px] m-0 bg-pillar-purple" />
-              <div className="mt-14 grid grid-cols-3 gap-px overflow-hidden rounded-[3px] border border-[var(--border)] bg-surface-container-highest">
+              <div className="mt-14 grid grid-cols-1 md:grid-cols-3 gap-px overflow-hidden rounded-[3px] border border-[var(--border)] bg-surface-container-highest">
                 {features.map((feature) => (
                   <div
                     key={feature.num}
