@@ -8,6 +8,7 @@ const categories = [
   "In the Classroom",
   "School Outreach",
   "Sport Stakeholders",
+  "Mentorship",
 ];
 
 const galleryImages = [

@@ -11,11 +11,13 @@
   "dependencies": {
     "@sendgrid/mail": "^8.1.6",
     "@vercel/blob": "^2.3.1",
+    "framer-motion": "^12.40.0",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest"
   },
   "devDependencies": {
+    "@tailwindcss/typography": "^0.5.20",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
