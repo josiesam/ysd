@@ -1,6 +1,13 @@
+import type { Metadata } from "next";
 import fs from "fs";
 import path from "path";
 import GalleryClient from "./client"; // move your UI into this
+
+export const metadata: Metadata = {
+  title: "Gallery",
+  description:
+    "Explore pictures from our classroom sessions, football tournaments, community outreach, and mentorship programs.",
+};
 
 const folderToCategory: Record<string, string> = {
   in_the_classroom: "In the Classroom",

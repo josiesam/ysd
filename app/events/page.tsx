@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Events & News | LEONE ATHLETES",
+  title: "Events & Activity Hub",
+  description:
+    "Stay updated on upcoming matches, tournament progress, equipment distribution, and success stories from the field.",
 };
 
 const matches = [

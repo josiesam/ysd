@@ -2,7 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "About Us | YSD-SL-LG",
+  title: "About Us",
+  description:
+    "Learn about our story, vision, mission, and the leadership team driving youth sport empowerment in Lakka and Freetown.",
 };
 
 export default function AboutPage() {

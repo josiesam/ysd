@@ -2,8 +2,15 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Long-form: Champions at Risk | YSD-SL-LG",
+  title: "Champions at Risk",
   description: "How sports is becoming a sanctuary for athletes battling the Kush epidemic in Sierra Leone.",
+  openGraph: {
+    images: ["https://lh3.googleusercontent.com/aida-public/AB6AXuBotS0L56cIMNG3nZjuUiNRT6JiHDahRrAVWjYOzE0P8McaEf2bQfVHF9ePLHqiui_596dhbsGPzohxCXz_-Fm40TiaWMf0yTP8WNcGlNMmnNtSJocB1jSD0VZsLG-smmXzUqtJVXCD8ONo9v4LBWNas6tiNBVAP9-MwZFeFiwt_194iO-c0FsfOp3JfR0-QOJsdHS43DvCBeUNHE6WqALVU9mQKAzsJnoCwp1azGrsLd0oQGEGI5ADBM2XxZwbF3jcPvjhqz9LB9I"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: ["https://lh3.googleusercontent.com/aida-public/AB6AXuBotS0L56cIMNG3nZjuUiNRT6JiHDahRrAVWjYOzE0P8McaEf2bQfVHF9ePLHqiui_596dhbsGPzohxCXz_-Fm40TiaWMf0yTP8WNcGlNMmnNtSJocB1jSD0VZsLG-smmXzUqtJVXCD8ONo9v4LBWNas6tiNBVAP9-MwZFeFiwt_194iO-c0FsfOp3JfR0-QOJsdHS43DvCBeUNHE6WqALVU9mQKAzsJnoCwp1azGrsLd0oQGEGI5ADBM2XxZwbF3jcPvjhqz9LB9I"],
+  },
 };
 
 export default function ChampionsAtRiskPage() {

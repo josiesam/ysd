@@ -1,12 +1,5 @@
 "use client";
-import type { Metadata } from "next";
 import Link from "next/link";
-
-// export const metadata: Metadata = {
-//   title: "Long-form: Primary School Tour | YSD-SL-LG",
-//   description:
-//     "Exploring how sports can become a professional trajectory for the youth of Sierra Leone.",
-// };
 
 type Photo = {
   src: string;

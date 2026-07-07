@@ -2,9 +2,16 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Long-form: Primary School Tour | YSD-SL-LG",
+  title: "Primary School Tour",
   description:
     "Exploring how sports can become a professional trajectory for the youth of Sierra Leone.",
+  openGraph: {
+    images: ["https://ff6afvdal8w6atua.public.blob.vercel-storage.com/articles/%20%E2%81%A0%E2%81%A0ysd_preview_article/IMG_6631.jpg"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: ["https://ff6afvdal8w6atua.public.blob.vercel-storage.com/articles/%20%E2%81%A0%E2%81%A0ysd_preview_article/IMG_6631.jpg"],
+  },
 };
 
 export default function PrimarySchoolTourPage() {

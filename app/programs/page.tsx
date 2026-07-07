@@ -2,7 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Programs & Initiatives | YSD-SL-LG",
+  title: "Programs & Initiatives",
+  description:
+    "Discover our core initiatives: primary school tours, private school football tournaments, and elite mentorship programs.",
 };
 
 export default function ProgramsPage() {

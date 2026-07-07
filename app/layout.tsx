@@ -17,9 +17,19 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "Youth Sport Development Sierra Leone",
+  title: {
+    default: "Youth Sport Development Sierra Leone",
+    template: "%s | Youth Sport Development Sierra Leone",
+  },
   description:
     "Based in Lakka, we empower the next generation by bridging the gap between classroom learning and athletic excellence.",
+  openGraph: {
+    images: ["/web-app-manifest-192x192.png"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: ["/web-app-manifest-192x192.png"],
+  },
 };
 
 export default function RootLayout({

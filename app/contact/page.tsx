@@ -2,7 +2,9 @@ import type { Metadata } from "next";
 import InquiryForm from "@/components/InquiryForm";
 
 export const metadata: Metadata = {
-  title: "Contact & Partner | YSD-SL-LG",
+  title: "Contact & Partner",
+  description:
+    "Get in touch with us to partner, sponsor, or volunteer. Help us build the future of youth sports in Sierra Leone.",
 };
 
 export default function ContactPage() {

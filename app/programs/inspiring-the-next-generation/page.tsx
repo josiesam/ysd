@@ -2,9 +2,16 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Long-form: Inspiring the Next Gen | YSD-SL-LG",
+  title: "Inspiring the Next Generation",
   description:
     "Bridging the gap between athletic potential and professional career pathways through mentorship.",
+  openGraph: {
+    images: ["https://ff6afvdal8w6atua.public.blob.vercel-storage.com/articles/ysd_article_v7/instagram.png13.png"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: ["https://ff6afvdal8w6atua.public.blob.vercel-storage.com/articles/ysd_article_v7/instagram.png13.png"],
+  },
 };
 
 export default function InspiringNextGenPage() {
