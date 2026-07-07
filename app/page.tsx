@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
+import { ArrowRight, Users, GraduationCap, Trophy, HeartPulse } from "lucide-react";
 
 export default function HomePage() {
   return (
@@ -6,15 +8,16 @@ export default function HomePage() {
       {/* Hero Section */}
       <section className="relative min-h-[870px] flex items-center px-6 md:px-16 overflow-hidden">
         <div className="absolute inset-0 kinetic-gradient -z-10" />
-        <div
-          className="absolute inset-0 opacity-20 -z-10"
-          style={{
-            backgroundImage:
-              "url('https://ff6afvdal8w6atua.public.blob.vercel-storage.com/landingpage.jpeg')",
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-          }}
-        />
+        <div className="absolute inset-0 opacity-20 -z-10">
+          <Image
+            src="https://ff6afvdal8w6atua.public.blob.vercel-storage.com/landingpage.jpeg"
+            alt="Hero Background"
+            fill
+            priority
+            className="object-cover object-center"
+            sizes="100vw"
+          />
+        </div>
         <div className="max-w-4xl">
           <span className="inline-block px-4 py-1.5 bg-secondary-container text-on-secondary-container rounded-full text-sm font-bold tracking-widest uppercase mb-6">
             Lakka, Sierra Leone
@@ -33,7 +36,7 @@ export default function HomePage() {
               className="bg-tertiary text-on-tertiary text-lg px-10 py-5 rounded-full font-black flex items-center gap-3 hover:translate-y-[-2px] transition-all sport-shadow"
             >
               Get Involved
-              <span className="material-symbols-outlined">arrow_forward</span>
+              <ArrowRight className="w-5 h-5" />
             </Link>
             <Link
               href="/about"
@@ -94,11 +97,15 @@ export default function HomePage() {
                 structured sports curricula.
               </p>
             </div>
-            <img
-              className="absolute bottom-[-10%] right-[-10%] w-2/3 grayscale opacity-30 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700 rotate-12"
-              alt="Group of smiling school children in Sierra Leone wearing school uniforms and holding footballs"
-              src="https://ff6afvdal8w6atua.public.blob.vercel-storage.com/school_partnership.jpeg"
-            />
+            <div className="absolute bottom-[-10%] right-[-10%] w-2/3 h-[60%] grayscale opacity-30 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700 rotate-12">
+              <Image
+                alt="Group of smiling school children in Sierra Leone wearing school uniforms and holding footballs"
+                src="https://ff6afvdal8w6atua.public.blob.vercel-storage.com/school_partnership.jpeg"
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 50vw, 33vw"
+              />
+            </div>
           </div>
           <div className="md:col-span-2 bg-tertiary-container rounded-[2rem] p-10 flex flex-col justify-center relative overflow-hidden">
             <span className="text-on-tertiary-container font-black text-7xl tracking-tighter">
@@ -124,9 +131,7 @@ export default function HomePage() {
             </p>
           </div>
           <div className="md:col-span-1 bg-primary-container rounded-[2rem] p-8 flex flex-col items-center justify-center text-center group">
-            <span className="material-symbols-outlined text-6xl text-on-primary-container mb-4 group-hover:scale-110 transition-transform">
-              diversity_3
-            </span>
+            <Users className="w-16 h-16 text-on-primary-container mb-4 group-hover:scale-110 transition-transform" />
             <p className="text-on-primary-container font-bold text-lg leading-tight">
               Community Driven
             </p>
@@ -149,18 +154,18 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Pillar 1 */}
             <div className="bg-surface-container-lowest p-2 rounded-[2.5rem] shadow-sm hover:shadow-xl transition-all duration-500 group">
-              <div className="h-64 rounded-[2rem] overflow-hidden mb-8">
-                <img
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+              <div className="h-64 rounded-[2rem] overflow-hidden mb-8 relative">
+                <Image
+                  className="object-cover group-hover:scale-110 transition-transform duration-700"
                   alt="Young athlete leading a team huddle on a dusty football pitch at sunset"
                   src="https://ff6afvdal8w6atua.public.blob.vercel-storage.com/school_tour.jpeg"
+                  fill
+                  sizes="(max-width: 768px) 100vw, 33vw"
                 />
               </div>
               <div className="px-8 pb-10">
-                <div className="w-14 h-14 rounded-full bg-[#6A359B]/10 flex items-center justify-center mb-6">
-                  <span className="material-symbols-outlined text-[#6A359B] text-3xl">
-                    school
-                  </span>
+                <div className="w-14 h-14 rounded-full bg-[#6A359B]/10 flex items-center justify-center mb-6 text-[#6A359B]">
+                  <GraduationCap className="w-8 h-8" />
                 </div>
                 <h3 className="text-2xl font-black font-headline mb-4">
                   Primary School Tours
@@ -174,27 +179,25 @@ export default function HomePage() {
                   className="text-[#6A359B] font-bold flex items-center gap-2 group/link"
                 >
                   Learn More{" "}
-                  <span className="material-symbols-outlined group-hover/link:translate-x-1 transition-transform">
-                    arrow_forward
-                  </span>
+                  <ArrowRight className="w-5 h-5 group-hover/link:translate-x-1 transition-transform" />
                 </Link>
               </div>
             </div>
 
             {/* Pillar 2 */}
             <div className="bg-surface-container-lowest p-2 rounded-[2.5rem] shadow-sm hover:shadow-xl transition-all duration-500 group">
-              <div className="h-64 rounded-[2rem] overflow-hidden mb-8">
-                <img
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+              <div className="h-64 rounded-[2rem] overflow-hidden mb-8 relative">
+                <Image
+                  className="object-cover group-hover:scale-110 transition-transform duration-700"
                   alt="Intense action shot of a soccer player kicking a ball during a high-stakes local tournament match"
                   src="https://ff6afvdal8w6atua.public.blob.vercel-storage.com/tournament.jpeg"
+                  fill
+                  sizes="(max-width: 768px) 100vw, 33vw"
                 />
               </div>
               <div className="px-8 pb-10">
-                <div className="w-14 h-14 rounded-full bg-secondary/10 flex items-center justify-center mb-6">
-                  <span className="material-symbols-outlined text-secondary text-3xl">
-                    sports_soccer
-                  </span>
+                <div className="w-14 h-14 rounded-full bg-secondary/10 flex items-center justify-center mb-6 text-secondary">
+                  <Trophy className="w-8 h-8" />
                 </div>
                 <h3 className="text-2xl font-black font-headline mb-4">
                   Football Tournament
@@ -208,27 +211,25 @@ export default function HomePage() {
                   className="text-secondary font-bold flex items-center gap-2 group/link"
                 >
                   View Gallery{" "}
-                  <span className="material-symbols-outlined group-hover/link:translate-x-1 transition-transform">
-                    arrow_forward
-                  </span>
+                  <ArrowRight className="w-5 h-5 group-hover/link:translate-x-1 transition-transform" />
                 </Link>
               </div>
             </div>
 
             {/* Pillar 3 */}
             <div className="bg-surface-container-lowest p-2 rounded-[2.5rem] shadow-sm hover:shadow-xl transition-all duration-500 group">
-              <div className="h-64 rounded-[2rem] overflow-hidden mb-8">
-                <img
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+              <div className="h-64 rounded-[2rem] overflow-hidden mb-8 relative">
+                <Image
+                  className="object-cover group-hover:scale-110 transition-transform duration-700"
                   alt="Close-up of two young men engaged in a serious conversation, portraying a moment of mentorship and support"
                   src="https://ff6afvdal8w6atua.public.blob.vercel-storage.com/at_risk"
+                  fill
+                  sizes="(max-width: 768px) 100vw, 33vw"
                 />
               </div>
               <div className="px-8 pb-10">
-                <div className="w-14 h-14 rounded-full bg-error/10 flex items-center justify-center mb-6">
-                  <span className="material-symbols-outlined text-error text-3xl">
-                    health_and_safety
-                  </span>
+                <div className="w-14 h-14 rounded-full bg-error/10 flex items-center justify-center mb-6 text-error">
+                  <HeartPulse className="w-8 h-8" />
                 </div>
                 <h3 className="text-2xl font-black font-headline mb-4">
                   Champions at Risk
@@ -242,9 +243,7 @@ export default function HomePage() {
                   className="text-error font-bold flex items-center gap-2 group/link"
                 >
                   Get Support{" "}
-                  <span className="material-symbols-outlined group-hover/link:translate-x-1 transition-transform">
-                    arrow_forward
-                  </span>
+                  <ArrowRight className="w-5 h-5 group-hover/link:translate-x-1 transition-transform" />
                 </Link>
               </div>
             </div>
@@ -252,36 +251,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Partners Section */}
-      {/* <section className="py-24 px-6 max-w-7xl mx-auto">
-        <h4 className="text-center text-outline-variant font-bold uppercase tracking-widest text-sm mb-12">
-          Trusted By World-Class Partners
-        </h4>
-        <div className="flex flex-wrap justify-center items-center gap-16 opacity-60 grayscale hover:grayscale-0 transition-all">
-          <div className="flex items-center gap-3">
-            <span className="material-symbols-outlined text-4xl">
-              corporate_fare
-            </span>
-            <span className="font-black text-xl tracking-tight">
-              Leone Rock Metal Group
-            </span>
-          </div>
-          <div className="flex items-center gap-3">
-            <span className="material-symbols-outlined text-4xl">
-              account_balance
-            </span>
-            <span className="font-black text-xl tracking-tight">
-              Gender &amp; Children Affairs SL
-            </span>
-          </div>
-          <div className="flex items-center gap-3">
-            <span className="material-symbols-outlined text-4xl">stadium</span>
-            <span className="font-black text-xl tracking-tight">
-              SL National Sports Authority
-            </span>
-          </div>
-        </div>
-      </section> */}
+      {/* Partners Section Removed */}
 
       {/* CTA Section */}
       <section className="mx-6 mb-24">

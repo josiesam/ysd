@@ -1,6 +1,6 @@
 "use client";
-
 import { useState } from "react";
+import { Home, Trophy, Image as ImageIcon, HeartHandshake } from "lucide-react";
 
 const categories = [
   "All Stories",
@@ -215,27 +215,21 @@ export default function GalleryPage({ images }: { images: TImage[] }) {
         </div>
       </section>
 
-      {/* Mobile Navigation */}
       <div className="md:hidden fixed bottom-0 left-0 w-full bg-white/95 backdrop-blur-md z-50 flex justify-around items-center py-4 px-2 shadow-[0_-4px_20px_rgba(0,0,0,0.05)]">
         <button className="flex flex-col items-center text-slate-400">
-          <span className="material-symbols-outlined">home</span>
+          <Home className="w-6 h-6" />
           <span className="text-[10px] font-bold mt-1 uppercase">Home</span>
         </button>
         <button className="flex flex-col items-center text-slate-400">
-          <span className="material-symbols-outlined">sports_soccer</span>
+          <Trophy className="w-6 h-6" />
           <span className="text-[10px] font-bold mt-1 uppercase">Sport</span>
         </button>
         <button className="flex flex-col items-center text-blue-700">
-          <span
-            className="material-symbols-outlined"
-            style={{ fontVariationSettings: "'FILL' 1" }}
-          >
-            photo_library
-          </span>
+          <ImageIcon className="w-6 h-6 fill-current" />
           <span className="text-[10px] font-bold mt-1 uppercase">Gallery</span>
         </button>
         <button className="flex flex-col items-center text-slate-400">
-          <span className="material-symbols-outlined">volunteer_activism</span>
+          <HeartHandshake className="w-6 h-6" />
           <span className="text-[10px] font-bold mt-1 uppercase">Impact</span>
         </button>
       </div>

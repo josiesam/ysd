@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import InquiryForm from "@/components/InquiryForm";
+import { CheckCircle, Phone, Mail, ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Contact & Partner",
@@ -27,11 +28,9 @@ export default function ContactPage() {
               <span className="material-symbols-outlined">download</span>
               Download Pitch Deck
             </button> */}
-            <div className="flex items-center gap-2 px-6 py-4 rounded-full border border-outline-variant/30 bg-surface-container-low">
-              <span className="material-symbols-outlined text-secondary">
-                verified
-              </span>
-              <span className="font-bold text-sm">
+            <div className="flex items-center gap-2 px-6 py-4 rounded-full border border-outline-variant/30 bg-surface-container-low text-secondary">
+              <CheckCircle className="w-5 h-5" />
+              <span className="font-bold text-sm text-on-surface">
                 Official Partnership 2024
               </span>
             </div>
@@ -59,10 +58,8 @@ export default function ContactPage() {
           className="md:col-span-2 bg-primary-container/20 p-8 rounded-[2rem] flex flex-col justify-between border border-primary/10"
         >
           <div className="flex justify-between items-start mb-12">
-            <div className="w-16 h-16 bg-primary rounded-2xl flex items-center justify-center">
-              <span className="material-symbols-outlined text-on-primary text-3xl">
-                call
-              </span>
+            <div className="w-16 h-16 bg-primary rounded-2xl flex items-center justify-center text-on-primary">
+              <Phone className="w-6 h-6" />
             </div>
             <span className="text-xs font-black uppercase tracking-widest text-primary opacity-60">
               Direct Hotlines
@@ -86,10 +83,8 @@ export default function ContactPage() {
           href="mailto:youthsportdevelopment.sl.lg@gmail.com"
           className="bg-surface-container p-8 rounded-[2rem] border border-outline-variant/10"
         >
-          <div className="w-12 h-12 bg-secondary rounded-xl flex items-center justify-center mb-16">
-            <span className="material-symbols-outlined text-on-secondary">
-              mail
-            </span>
+          <div className="w-12 h-12 bg-secondary rounded-xl flex items-center justify-center mb-16 text-on-secondary">
+            <Mail className="w-6 h-6" />
           </div>
           <h3 className="font-headline font-bold text-sm text-secondary uppercase mb-2">
             Email Inquiries
@@ -118,7 +113,7 @@ export default function ContactPage() {
             </div>
             <div className="flex items-center gap-2 text-primary font-bold cursor-pointer group-hover:gap-4 transition-all">
               <span>Get Directions</span>
-              <span className="material-symbols-outlined">arrow_forward</span>
+              <ArrowRight className="w-4 h-4" />
             </div>
           </div>
           <div className="absolute inset-0 opacity-20 grayscale hover:grayscale-0 transition-all duration-700">

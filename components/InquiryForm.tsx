@@ -1,6 +1,6 @@
 "use client";
-
 import { useState } from "react";
+import { CheckCircle, AlertCircle, Send } from "lucide-react";
 
 type Status = "idle" | "loading" | "success" | "error";
 
@@ -60,10 +60,8 @@ export default function InquiryForm() {
   if (status === "success") {
     return (
       <div className="bg-secondary-container rounded-[2rem] p-12 text-center">
-        <div className="w-20 h-20 bg-secondary rounded-full flex items-center justify-center mx-auto mb-6">
-          <span className="material-symbols-outlined text-4xl text-on-secondary">
-            check_circle
-          </span>
+        <div className="w-20 h-20 bg-secondary rounded-full flex items-center justify-center mx-auto mb-6 text-on-secondary">
+          <CheckCircle className="w-10 h-10" />
         </div>
         <h3 className="font-headline font-black text-2xl text-on-secondary-container mb-3">
           Message Sent!
@@ -182,7 +180,7 @@ export default function InquiryForm() {
 
       {status === "error" && (
         <p className="text-error text-sm font-bold mb-4 flex items-center gap-2">
-          <span className="material-symbols-outlined text-base">error</span>
+          <AlertCircle className="w-4 h-4" />
           {errorMsg}
         </p>
       )}
@@ -200,7 +198,7 @@ export default function InquiryForm() {
         ) : (
           <>
             Send Message
-            <span className="material-symbols-outlined">send</span>
+            <Send className="w-5 h-5" />
           </>
         )}
       </button>

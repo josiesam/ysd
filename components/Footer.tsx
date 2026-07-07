@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
+import { Share2, Mail } from "lucide-react";
 
 const footerLinks = [
   { label: "About Us", href: "/about" },
@@ -59,13 +60,13 @@ export default function Footer() {
                 })
               }
             >
-              <span className="material-symbols-outlined text-xl">share</span>
+              <Share2 className="w-5 h-5" />
             </div>
             <a
               href="mailto:youthsportdevelopment.sl.lg@gmail.com"
               className="w-10 h-10 rounded-full bg-slate-200 flex items-center justify-center text-blue-700 hover:bg-blue-700 hover:text-white transition-all cursor-pointer"
             >
-              <span className="material-symbols-outlined text-xl">mail</span>
+              <Mail className="w-5 h-5" />
             </a>
           </div>
         </div>

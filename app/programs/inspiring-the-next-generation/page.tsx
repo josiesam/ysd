@@ -1,16 +1,18 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
+import { Handshake } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Inspiring the Next Generation",
   description:
     "Bridging the gap between athletic potential and professional career pathways through mentorship.",
   openGraph: {
-    images: ["https://ff6afvdal8w6atua.public.blob.vercel-storage.com/articles/ysd_article_v7/instagram.png13.png"],
+    images: ["/_next/image?url=https%3A%2F%2Fff6afvdal8w6atua.public.blob.vercel-storage.com%2Farticles%2Fysd_article_v7%2Finstagram.png13.png&w=1200&q=75"],
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://ff6afvdal8w6atua.public.blob.vercel-storage.com/articles/ysd_article_v7/instagram.png13.png"],
+    images: ["/_next/image?url=https%3A%2F%2Fff6afvdal8w6atua.public.blob.vercel-storage.com%2Farticles%2Fysd_article_v7%2Finstagram.png13.png&w=1200&q=75"],
   },
 };
 
@@ -19,16 +21,17 @@ export default function InspiringNextGenPage() {
     <main className="bg-surface min-h-screen">
       {/* Article Hero */}
       <header className="relative h-[60vh] md:h-[75vh] overflow-hidden bg-pillar-green-container">
-        <img
+        <Image
           src="https://ff6afvdal8w6atua.public.blob.vercel-storage.com/articles/ysd_article_v7/instagram.png13.png"
           alt="Primary school children participating in sports"
-          className="absolute inset-0 w-full h-full object-cover"
+          fill
+          priority
+          className="object-cover"
+          sizes="100vw"
         />
         <div className="absolute inset-0 opacity-20 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]" />
-        <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-          <span className="material-symbols-outlined text-pillar-green text-[20rem] md:text-[35rem] opacity-10 font-thin italic">
-            handshake
-          </span>
+        <div className="absolute inset-0 flex items-center justify-center pointer-events-none text-pillar-green opacity-10">
+          <Handshake className="w-80 h-80 md:w-[35rem] md:h-[35rem] stroke-[1] italic" />
         </div>
         <div className="absolute inset-0 bg-gradient-to-t from-pillar-green via-pillar-green/40 to-transparent" />
         <div className="absolute bottom-0 left-0 right-0 p-6 md:p-16 max-w-7xl mx-auto">

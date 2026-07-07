@@ -1,5 +1,7 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
+import { Users } from "lucide-react";
 
 type Photo = {
   src: string;
@@ -229,10 +231,13 @@ export default function PrimarySchoolTourPage() {
     <main className="bg-surface min-h-screen">
       {/* Article Hero */}
       <header className="relative h-[60vh] md:h-[70vh] overflow-hidden">
-        <img
+        <Image
           src="https://ff6afvdal8w6atua.public.blob.vercel-storage.com/articles/IMG_6027.png"
           alt="Primary school children participating in sports"
-          className="absolute inset-0 w-full h-full object-cover"
+          fill
+          priority
+          className="object-cover"
+          sizes="100vw"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent" />
         <div className="absolute bottom-0 left-0 right-0 p-6 md:p-16 max-w-7xl mx-auto">
@@ -509,9 +514,7 @@ export default function PrimarySchoolTourPage() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-pillar-green/60 to-transparent" />
               <div className="absolute inset-0 flex items-center justify-center">
-                <span className="material-symbols-outlined text-white text-[10rem] opacity-10">
-                  diversity_3
-                </span>
+                <Users className="text-white w-40 h-40 opacity-10" />
               </div>
               <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
               <div className="absolute bottom-10 left-10">

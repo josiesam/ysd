@@ -17,6 +17,11 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
+  metadataBase: process.env.VERCEL_PROJECT_PRODUCTION_URL
+    ? new URL(`https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`)
+    : process.env.VERCEL_URL
+    ? new URL(`https://${process.env.VERCEL_URL}`)
+    : new URL("http://localhost:3000"),
   title: {
     default: "Youth Sport Development Sierra Leone",
     template: "%s | Youth Sport Development Sierra Leone",
@@ -41,10 +46,6 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <meta name="apple-mobile-web-app-title" content="MyWebSite" />
-        <link
-          rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap"
-        />
       </head>
       <body
         className={`${lexend.variable} ${manrope.variable} bg-surface font-body text-on-surface selection:bg-tertiary-container`}

@@ -5,11 +5,11 @@ export const metadata: Metadata = {
   description:
     "Youth Sport Development SL is building the first dedicated competitive football platform for private school students across Sierra Leone.",
   openGraph: {
-    images: ["https://ff6afvdal8w6atua.public.blob.vercel-storage.com/articles/IMG_6027.png"],
+    images: ["/_next/image?url=https%3A%2F%2Fff6afvdal8w6atua.public.blob.vercel-storage.com%2Farticles%2FIMG_6027.png&w=1200&q=75"],
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://ff6afvdal8w6atua.public.blob.vercel-storage.com/articles/IMG_6027.png"],
+    images: ["/_next/image?url=https%3A%2F%2Fff6afvdal8w6atua.public.blob.vercel-storage.com%2Farticles%2FIMG_6027.png&w=1200&q=75"],
   },
 };
 

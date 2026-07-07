@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
+import { HeartCrack, Brain, Activity, Users } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Champions at Risk",
@@ -18,10 +20,13 @@ export default function ChampionsAtRiskPage() {
     <main className="bg-surface min-h-screen">
       {/* Article Hero */}
       <header className="relative h-[65vh] md:h-[80vh] overflow-hidden bg-black">
-        <img
+        <Image
           src="https://lh3.googleusercontent.com/aida-public/AB6AXuBotS0L56cIMNG3nZjuUiNRT6JiHDahRrAVWjYOzE0P8McaEf2bQfVHF9ePLHqiui_596dhbsGPzohxCXz_-Fm40TiaWMf0yTP8WNcGlNMmnNtSJocB1jSD0VZsLG-smmXzUqtJVXCD8ONo9v4LBWNas6tiNBVAP9-MwZFeFiwt_194iO-c0FsfOp3JfR0-QOJsdHS43DvCBeUNHE6WqALVU9mQKAzsJnoCwp1azGrsLd0oQGEGI5ADBM2XxZwbF3jcPvjhqz9LB9I"
           alt="Athlete focusing during training"
-          className="absolute inset-0 w-full h-full object-cover grayscale opacity-60 contrast-125"
+          fill
+          priority
+          className="object-cover grayscale opacity-60 contrast-125"
+          sizes="100vw"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-pillar-red via-black/40 to-transparent" />
         <div className="absolute bottom-0 left-0 right-0 p-6 md:p-16 max-w-7xl mx-auto">
@@ -74,7 +79,7 @@ export default function ChampionsAtRiskPage() {
               {/* Stats Bento */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-16">
                 <div className="bg-pillar-red p-10 rounded-[3rem] text-white flex flex-col justify-between aspect-square md:aspect-auto">
-                    <span className="material-symbols-outlined text-6xl opacity-30">heart_broken</span>
+                    <HeartCrack className="w-16 h-16 text-white opacity-30" />
                     <div>
                         <h4 className="text-6xl font-headline font-black mb-2 italic">240+</h4>
                         <p className="font-bold uppercase tracking-widest text-white/70">Lives Restored & Reintegrated</p>
@@ -82,18 +87,18 @@ export default function ChampionsAtRiskPage() {
                 </div>
                 <div className="grid grid-rows-2 gap-4">
                     <div className="bg-surface-container-lowest p-8 rounded-[2.5rem] flex items-center gap-6 border border-white/5">
-                         <div className="w-16 h-16 rounded-2xl bg-pillar-red/10 flex items-center justify-center text-pillar-red">
-                            <span className="material-symbols-outlined text-3xl">psychology</span>
-                         </div>
+                          <div className="w-16 h-16 rounded-2xl bg-pillar-red/10 flex items-center justify-center text-pillar-red">
+                            <Brain className="w-8 h-8" />
+                          </div>
                          <div>
                             <h5 className="font-headline font-bold text-white text-2xl">Daily Counseling</h5>
                             <p className="text-sm opacity-60 font-medium tracking-tight">Structured mental health support</p>
                          </div>
                     </div>
                     <div className="bg-surface-container-lowest p-8 rounded-[2.5rem] flex items-center gap-6 border border-white/5">
-                         <div className="w-16 h-16 rounded-2xl bg-pillar-red/10 flex items-center justify-center text-pillar-red">
-                            <span className="material-symbols-outlined text-3xl">medical_services</span>
-                         </div>
+                          <div className="w-16 h-16 rounded-2xl bg-pillar-red/10 flex items-center justify-center text-pillar-red">
+                            <Activity className="w-8 h-8" />
+                          </div>
                          <div>
                             <h5 className="font-headline font-bold text-white text-2xl">Medical Pathway</h5>
                             <p className="text-sm opacity-60 font-medium tracking-tight">Access to detox & nutrition</p>
@@ -133,7 +138,7 @@ export default function ChampionsAtRiskPage() {
             <div className="relative h-80 rounded-[3rem] overflow-hidden mb-8 shadow-2xl">
               <div className="absolute inset-0 bg-pillar-green" />
               <div className="absolute inset-0 flex items-center justify-center">
-                <span className="material-symbols-outlined text-white text-[10rem] opacity-10">diversity_3</span>
+                <Users className="text-white w-40 h-40 opacity-10" />
               </div>
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
               <div className="absolute bottom-10 left-10">

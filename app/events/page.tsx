@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Trophy, Play, Heart, Package } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Events & Activity Hub",
@@ -115,9 +116,7 @@ export default function EventsPage() {
                     {match.venue}
                   </p>
                 </div>
-                <span className="material-symbols-outlined text-primary opacity-0 group-hover:opacity-100 transition-opacity">
-                  {match.icon}
-                </span>
+                <Trophy className="w-6 h-6 text-primary opacity-0 group-hover:opacity-100 transition-opacity" />
               </div>
             ))}
           </div>
@@ -180,10 +179,8 @@ export default function EventsPage() {
                 alt="Close-up of young athlete smiling while holding a basketball on a sunlit court"
                 src="https://ff6afvdal8w6atua.public.blob.vercel-storage.com/tour%20highlight"
               />
-              <div className="absolute inset-0 bg-black/20 backdrop-blur-[2px] opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                <span className="material-symbols-outlined text-white text-4xl">
-                  play_circle
-                </span>
+              <div className="absolute inset-0 bg-black/20 backdrop-blur-[2px] opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-white">
+                <Play className="w-10 h-10 fill-current" />
               </div>
             </div>
 
@@ -193,13 +190,8 @@ export default function EventsPage() {
                 alt="A group of diverse students in school uniforms cheering enthusiastically in bleachers"
                 src="https://ff6afvdal8w6atua.public.blob.vercel-storage.com/cheers.jpeg"
               />
-              <div className="absolute top-4 right-4">
-                <span
-                  className="material-symbols-outlined text-white"
-                  style={{ fontVariationSettings: "'FILL' 1" }}
-                >
-                  favorite
-                </span>
+              <div className="absolute top-4 right-4 text-white">
+                <Heart className="w-6 h-6 fill-current" />
               </div>
             </div>
 
@@ -213,81 +205,13 @@ export default function EventsPage() {
                   1,200+ Footballs Delivered
                 </p>
               </div>
-              <span className="material-symbols-outlined text-9xl absolute -right-4 -bottom-4 text-on-tertiary-container/10">
-                inventory_2
-              </span>
+              <Package className="w-24 h-24 absolute -right-4 -bottom-4 text-on-tertiary-container/10" />
             </div>
           </div>
         </section>
       </div>
 
-      {/* Success Stories */}
-      {/* <section className="mt-24">
-        <div className="text-center mb-16">
-          <span className="text-primary font-black uppercase tracking-[0.2em] text-xs">
-            The Voices of Change
-          </span>
-          <h2 className="font-headline text-4xl md:text-5xl font-black mt-2">
-            SUCCESS STORIES
-          </h2>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {testimonials.map((t) => (
-            <div
-              key={t.name}
-              className={`p-8 rounded-[2rem] relative ${
-                t.variant === "primary"
-                  ? "bg-primary text-on-primary shadow-xl shadow-primary/20"
-                  : "bg-surface-container"
-              }`}
-            >
-              <span
-                className={`material-symbols-outlined text-6xl absolute top-4 left-4 ${
-                  t.variant === "primary"
-                    ? "text-on-primary/10"
-                    : "text-primary/10"
-                }`}
-              >
-                format_quote
-              </span>
-              <p
-                className={`relative z-10 font-medium italic leading-relaxed mb-8 ${
-                  t.variant !== "primary" ? "text-on-surface" : ""
-                }`}
-              >
-                &ldquo;{t.quote}&rdquo;
-              </p>
-              <div className="flex items-center gap-4">
-                <div className="w-12 h-12 rounded-full overflow-hidden bg-slate-300">
-                  <img
-                    className="w-full h-full object-cover"
-                    alt={`Portrait of ${t.name}`}
-                    src={t.img}
-                  />
-                </div>
-                <div>
-                  <p
-                    className={`font-headline font-bold text-sm ${
-                      t.variant !== "primary" ? "text-on-surface" : ""
-                    }`}
-                  >
-                    {t.name}
-                  </p>
-                  <p
-                    className={`text-[10px] font-black uppercase tracking-widest ${
-                      t.variant === "primary"
-                        ? "text-on-primary/70"
-                        : "text-primary"
-                    }`}
-                  >
-                    {t.role}
-                  </p>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </section> */}
+      {/* Success Stories Removed */}
 
       {/* CTA */}
       <section className="mt-32 mb-12 bg-surface-container-highest rounded-[3rem] overflow-hidden flex flex-col md:flex-row items-center">

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { Eye, Target, MapPin, Mail, ArrowRight, Trophy } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "About Us",
@@ -97,7 +98,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16">
           <div className="space-y-8">
             <div className="flex items-center gap-4 text-white/60">
-              <span className="material-symbols-outlined">visibility</span>
+              <Eye className="w-6 h-6" />
               <span className="font-headline font-bold uppercase tracking-widest text-sm">
                 The Vision
               </span>
@@ -111,7 +112,7 @@ export default function AboutPage() {
           </div>
           <div className="space-y-8">
             <div className="flex items-center gap-4 text-white/60">
-              <span className="material-symbols-outlined">track_changes</span>
+              <Target className="w-6 h-6" />
               <span className="font-headline font-bold uppercase tracking-widest text-sm">
                 The Mission
               </span>
@@ -206,9 +207,7 @@ export default function AboutPage() {
                 Visit Us
               </h2>
               <div className="flex items-start gap-4 mb-8">
-                <span className="material-symbols-outlined text-primary mt-1">
-                  location_on
-                </span>
+                <MapPin className="text-primary w-6 h-6 mt-1 flex-shrink-0" />
                 <div>
                   <p className="font-headline font-bold text-lg">
                     Lakka Headquarters
@@ -221,9 +220,7 @@ export default function AboutPage() {
                 </div>
               </div>
               <div className="flex items-start gap-4 mb-8">
-                <span className="material-symbols-outlined text-primary mt-1">
-                  mail
-                </span>
+                <Mail className="text-primary w-6 h-6 mt-1 flex-shrink-0" />
                 <div>
                   <p className="font-headline font-bold text-lg">
                     Contact Info
@@ -240,9 +237,7 @@ export default function AboutPage() {
                 className="bg-primary text-on-primary px-8 py-3 rounded-full font-headline font-bold hover:shadow-lg transition-all flex items-center gap-2 w-fit"
               >
                 Get Directions{" "}
-                <span className="material-symbols-outlined text-sm">
-                  arrow_forward
-                </span>
+                <ArrowRight className="w-4 h-4" />
               </Link>
             </div>
             <div className="md:col-span-8 h-[500px] rounded-[2.5rem] overflow-hidden shadow-2xl relative">
@@ -254,9 +249,7 @@ export default function AboutPage() {
               <div className="absolute inset-0 bg-primary/10" />
               <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                 <div className="w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center shadow-2xl animate-bounce">
-                  <span className="material-symbols-outlined">
-                    sports_soccer
-                  </span>
+                  <Trophy className="w-6 h-6" />
                 </div>
               </div>
             </div>
