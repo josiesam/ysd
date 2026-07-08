@@ -33,7 +33,7 @@ export default function Navbar() {
           <Image
             src="/ysd-text.png"
             alt=""
-            width={120}
+            width={100}
             height={40}
             className=" font-black xl:hidden text-blue-700 tracking-tighter font-headline"
           />
