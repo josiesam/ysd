@@ -35,7 +35,7 @@ export default function Navbar() {
             alt=""
             width={150}
             height={40}
-            className="-ml-12 font-black xl:hidden text-blue-700 tracking-tighter font-headline"
+            className=" font-black xl:hidden text-blue-700 tracking-tighter font-headline"
           />
         </Link>
 
