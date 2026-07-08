@@ -33,6 +33,7 @@ export default function HomePage() {
           <div className="flex flex-wrap gap-4">
             <Link
               href="/contact"
+              prefetch={false}
               className="bg-tertiary text-on-tertiary text-lg px-10 py-5 rounded-full font-black flex items-center gap-3 hover:translate-y-[-2px] transition-all sport-shadow"
             >
               Get Involved
@@ -40,6 +41,7 @@ export default function HomePage() {
             </Link>
             <Link
               href="/about"
+              prefetch={false}
               className="glass-card text-white border border-white/30 text-lg px-10 py-5 rounded-full font-black hover:bg-white/10 transition-all"
             >
               Our Mission
@@ -176,6 +178,7 @@ export default function HomePage() {
                 </p>
                 <Link
                   href="/programs"
+                  prefetch={false}
                   className="text-[#6A359B] font-bold flex items-center gap-2 group/link"
                 >
                   Learn More{" "}
@@ -208,6 +211,7 @@ export default function HomePage() {
                 </p>
                 <Link
                   href="/gallery"
+                  prefetch={false}
                   className="text-secondary font-bold flex items-center gap-2 group/link"
                 >
                   View Gallery{" "}
@@ -240,6 +244,7 @@ export default function HomePage() {
                 </p>
                 <Link
                   href="/programs"
+                  prefetch={false}
                   className="text-error font-bold flex items-center gap-2 group/link"
                 >
                   Get Support{" "}
@@ -267,12 +272,14 @@ export default function HomePage() {
           <div className="flex flex-col md:flex-row gap-4 justify-center relative z-10">
             <Link
               href="/contact"
+              prefetch={false}
               className="bg-tertiary text-on-tertiary px-12 py-5 rounded-full font-black text-xl hover:scale-105 transition-transform sport-shadow"
             >
               Partner With Us
             </Link>
             <Link
               href="/contact"
+              prefetch={false}
               className="bg-white text-primary px-12 py-5 rounded-full font-black text-xl hover:bg-on-primary transition-colors"
             >
               Volunteer Now

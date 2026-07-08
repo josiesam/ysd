@@ -483,7 +483,7 @@ export default function PrimarySchoolTourPage() {
           Continue Exploring
         </h4>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-          <Link href="/programs/primary-school-tour" className="group block">
+          <Link href="/programs/primary-school-tour" prefetch={false} className="group block">
             <div className="relative h-80 rounded-[3rem] overflow-hidden mb-8 shadow-xl shadow-black/20">
               <img
                 src="https://ff6afvdal8w6atua.public.blob.vercel-storage.com/articles/%20%E2%81%A0%E2%81%A0ysd_preview_article/IMG_6631.jpg"
@@ -504,6 +504,7 @@ export default function PrimarySchoolTourPage() {
 
           <Link
             href="/programs/inspiring-the-next-generation"
+            prefetch={false}
             className="group block"
           >
             <div className="relative h-80 rounded-[3rem] overflow-hidden mb-8 shadow-xl shadow-black/20">

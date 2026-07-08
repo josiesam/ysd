@@ -119,7 +119,7 @@ export default function ChampionsAtRiskPage() {
       <section className="py-24 max-w-7xl mx-auto px-6 border-t border-white/5">
         <h4 className="font-headline text-2xl font-black mb-12 tracking-tight text-center uppercase text-white">RECLAIMING THE FUTURE</h4>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-          <Link href="/programs/primary-school-tour" className="group block">
+          <Link href="/programs/primary-school-tour" prefetch={false} className="group block">
             <div className="relative h-80 rounded-[3rem] overflow-hidden mb-8 shadow-2xl">
               <img 
                 src="https://ff6afvdal8w6atua.public.blob.vercel-storage.com/school_tour.jpeg" 
@@ -134,7 +134,7 @@ export default function ChampionsAtRiskPage() {
             </div>
           </Link>
 
-          <Link href="/programs/inspiring-the-next-generation" className="group block">
+          <Link href="/programs/inspiring-the-next-generation" prefetch={false} className="group block">
             <div className="relative h-80 rounded-[3rem] overflow-hidden mb-8 shadow-2xl">
               <div className="absolute inset-0 bg-pillar-green" />
               <div className="absolute inset-0 flex items-center justify-center">

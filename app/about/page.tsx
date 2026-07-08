@@ -234,6 +234,7 @@ export default function AboutPage() {
               </div>
               <Link
                 href="/contact"
+                prefetch={false}
                 className="bg-primary text-on-primary px-8 py-3 rounded-full font-headline font-bold hover:shadow-lg transition-all flex items-center gap-2 w-fit"
               >
                 Get Directions{" "}

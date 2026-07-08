@@ -43,6 +43,7 @@ export default function ProgramsPage() {
               <h2 className="font-headline text-4xl md:text-5xl font-extrabold text-on-surface mb-6 leading-tight">
                 <Link
                   href="/programs/primary-school-tour"
+                  prefetch={false}
                   className="hover:text-secondary transition-colors"
                 >
                   Primary School Tour:
@@ -77,6 +78,7 @@ export default function ProgramsPage() {
               </div>
               <Link
                 href="/programs/primary-school-tour"
+                prefetch={false}
                 className="inline-flex items-center gap-2 text-secondary font-black text-sm uppercase tracking-widest hover:gap-4 transition-all"
               >
                 Read the Story{" "}
@@ -114,6 +116,7 @@ export default function ProgramsPage() {
               <h2 className="font-headline text-4xl md:text-6xl font-black mb-6 leading-tight">
                 <Link
                   href={`/programs/private-football-tournament`}
+                  prefetch={false}
                   className="hover:text-on-primary/60 transition-colors"
                 >
                   Private Schools Football Tournament
@@ -144,6 +147,7 @@ export default function ProgramsPage() {
             </div>
             <Link
               href="/programs/private-football-tournament"
+              prefetch={false}
               className="inline-flex items-center gap-2 mt-2 text-on-primary hover:text-on-primary/60 underline-offset-2 underline font-black text-sm uppercase tracking-widest hover:gap-4 transition-all"
             >
               See our test run
@@ -230,6 +234,7 @@ export default function ProgramsPage() {
             <h2 className="font-headline text-4xl md:text-5xl font-black text-on-surface mb-6 leading-[0.9] tracking-tighter">
               <Link
                 href="/programs/inspiring-the-next-generation"
+                prefetch={false}
                 className="hover:text-primary transition-colors"
               >
                 Inspiring the <br />
@@ -243,6 +248,7 @@ export default function ProgramsPage() {
             </p>
             <Link
               href="/programs/inspiring-the-next-generation"
+              prefetch={false}
               className="inline-flex items-center gap-2 bg-on-surface text-surface px-10 py-4 rounded-full font-black text-sm uppercase tracking-widest hover:bg-primary transition-all shadow-xl"
             >
               Explore Paths

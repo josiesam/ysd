@@ -536,6 +536,7 @@ export default function PrimarySchoolTourPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           <Link
             href="/programs/private-football-tournament"
+            prefetch={false}
             className="group block"
           >
             <div className="relative h-80 rounded-[3rem] overflow-hidden mb-8 shadow-xl shadow-black/20">
@@ -563,6 +564,7 @@ export default function PrimarySchoolTourPage() {
 
           <Link
             href="/programs/inspiring-the-next-generation"
+            prefetch={false}
             className="group block"
           >
             <div className="relative h-80 rounded-[3rem] overflow-hidden mb-8 shadow-xl shadow-black/20">

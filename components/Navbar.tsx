@@ -20,7 +20,7 @@ export default function Navbar() {
   return (
     <nav className="fixed top-0 w-full z-50 bg-white/80 backdrop-blur-lg shadow-sm">
       <div className="flex justify-between items-center px-6 py-4 max-w-7xl mx-auto">
-        <Link href="/" className="flex items-center gap-3">
+        <Link href="/" prefetch={false} className="flex items-center gap-3">
           <Image
             src="/web-app-manifest-512x512.png"
             alt="logo"
@@ -41,6 +41,7 @@ export default function Navbar() {
             <Link
               key={link.href}
               href={link.href}
+              prefetch={false}
               className={`font-headline font-bold tracking-tight text-sm uppercase transition-colors ${
                 pathname === link.href
                   ? "text-blue-700 border-b-2 border-orange-500 pb-1"
@@ -55,6 +56,7 @@ export default function Navbar() {
         <div className="flex items-center gap-4">
           <Link
             href="/contact"
+            prefetch={false}
             className="hidden md:block bg-tertiary text-on-tertiary px-6 py-2 rounded-full font-bold shadow-lg hover:opacity-80 transition-all text-sm"
           >
             Get Involved
@@ -97,6 +99,7 @@ export default function Navbar() {
             <Link
               key={link.href}
               href={link.href}
+              prefetch={false}
               onClick={() => setMenuOpen(false)}
               className={`font-headline font-bold tracking-tight text-sm uppercase py-3 px-4 rounded-xl transition-colors ${
                 pathname === link.href
@@ -109,6 +112,7 @@ export default function Navbar() {
           ))}
           <Link
             href="/contact"
+            prefetch={false}
             onClick={() => setMenuOpen(false)}
             className="mt-3 bg-tertiary text-on-tertiary px-6 py-3 rounded-full font-bold shadow-lg hover:opacity-80 transition-all text-sm text-center"
           >
