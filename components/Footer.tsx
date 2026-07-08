@@ -29,9 +29,13 @@ export default function Footer() {
               <span className="text-2xl hidden xl:inline font-black text-blue-700 tracking-tighter font-headline">
                 YOUTH SPORT DEVELOPMENT (SL) LG
               </span>
-              <span className="text-2xl font-black xl:hidden text-blue-700 tracking-tighter font-headline">
-                YSD (SL) LG
-              </span>
+              <Image
+                src="/ysd-text.png"
+                alt=""
+                width={100}
+                height={40}
+                className=" font-black xl:hidden text-blue-700 tracking-tighter font-headline"
+              />
             </div>
             <p className="text-slate-500 text-sm">
               {`© ${new Date().getFullYear()} Youth Sport Development Sierra Leone. All rights reserved.`}
